@@ -1,0 +1,21 @@
+{
+  "name": "funfluent-nuxt",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.38",
+    "vuetify": "^3.5.4",
+    "@mdi/font": "^7.4.47"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.2",
+    "sass": "^1.71.1"
+  }
+}
