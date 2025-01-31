@@ -25,8 +25,10 @@ const props = defineProps({
 });
 
 const additionalCSS = ref([]);
-if (props.position && props.position != "") {
-  additionalCSS.value.push(props.position);
+if (props.position == "bottom") {
+  additionalCSS.value.push("bottom");
+} else {
+  additionalCSS.value.push("top");
 }
 
 if (props.invert) {
@@ -41,7 +43,6 @@ if (props.flip) {
 <style scoped>
 .custom-shape-divider-wave {
   position: absolute;
-  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -51,6 +52,9 @@ if (props.flip) {
 .invert.custom-shape-divider-wave {
   transform: rotate(0deg);
 }
+.top.custom-shape-divider-wave {
+  top: 0;
+}
 
 .bottom.custom-shape-divider-wave {
   bottom: 0;
@@ -59,7 +63,7 @@ if (props.flip) {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 61px;
+  height: 60px;
 }
 
 .flip.custom-shape-divider-wave svg {
