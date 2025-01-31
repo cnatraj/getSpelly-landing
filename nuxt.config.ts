@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-
 export default defineNuxtConfig({
   css: ["vuetify/styles", "@mdi/font/css/materialdesignicons.css"],
   modules: [],
@@ -14,7 +13,12 @@ export default defineNuxtConfig({
     },
   },
 
-  ssr: true,
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/about", "/books", "/testimonials", "/contact"],
+    },
+  },
 
   app: {
     head: {
@@ -30,7 +34,28 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap",
         },
       ],
+      meta: [
+        { name: "format-detection", content: "telephone=no" },
+        { name: "robots", content: "index, follow" },
+        { name: "theme-color", content: "#FF9800" },
+      ],
     },
+  },
+
+  routeRules: {
+    // Homepage pre-rendered at build time
+    "/": { prerender: true },
+    // Add more routes as needed
+    "/about": { prerender: true },
+    "/books": { prerender: true },
+    "/testimonials": { prerender: true },
+    "/contact": { prerender: true },
+  },
+
+  experimental: {
+    payloadExtraction: true,
+    renderJsonPayloads: true,
+    viewTransition: true,
   },
 
   compatibilityDate: "2025-01-30",
