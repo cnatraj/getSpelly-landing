@@ -2,24 +2,19 @@
   <v-container
     class="pa-0 border-xl rounded-lg border-white border-opacity-100"
   >
-    <div class="rounded-lg">
+    <section>
       <v-img
         :src="heroImage"
         cover
-        height="550"
-        position="left center"
-        class="rounded-lg"
+        height="650"
+        position="left top"
+        class="rounded-lg heroSectionGradient"
       >
-        <div class="fill-height heroSectionGradient">
-          <div>
-            <v-btn variant="text" class="text-white">Home</v-btn>
-            <v-btn variant="text" class="text-white">About</v-btn>
-            <v-btn variant="text" class="text-white">Books</v-btn>
-          </div>
-
-          <v-row>
-            <v-col cols="12" sm="6">
-              <div class="pa-8">
+        <div class="px-10">
+          <TopNav />
+          <v-row class="my-0">
+            <v-col cols="12" sm="12" md="6" lg="6">
+              <div>
                 <!-- <v-img :src="spelly" height="150"></v-img> -->
                 <h1 class="text-h1 text-default">
                   The free, and fun, way to learn spelling!
@@ -32,18 +27,21 @@
                   class="elevatedButton mt-8"
                   color="primary"
                   size="x-large"
+                  @click="goToApp"
                   >Start Learning</v-btn
                 >
               </div>
             </v-col>
           </v-row>
         </div>
+
         <CommonShapeDivider
           :color="theme.current.value.colors.section1"
           position="bottom"
         />
       </v-img>
-    </div>
+    </section>
+
     <section class="bg-section1 py-16">
       <div class="text-center">
         <v-chip color="secondary" variant="flat"
@@ -91,13 +89,21 @@
 
 <script setup>
 import { useDisplay, useTheme } from "vuetify";
+import { useAppNavigation } from "../composables/useAppNavigation";
 import ParentBenefits from "../components/ParentBenefits.vue";
 import WhyKidsLoveUs from "../components/WhyKidsLoveUs.vue";
 import FooterCTA from "../components/FooterCTA.vue";
 import Footer from "../components/Footer.vue";
+import TopNav from "../components/TopNav.vue";
 
+// Get theme instance
 const theme = useTheme();
+
+// get screen size
 const { mobile, md, lg, lgAndUp } = useDisplay();
+
+// Get app navigation
+const { goToApp } = useAppNavigation();
 
 const heroImage = new URL(
   "../assets/images/hero-section-bg.jpg",
@@ -114,6 +120,7 @@ const appScreenshots = new URL(
 
 <style scoped>
 .heroSectionGradient {
+  position: relative;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,

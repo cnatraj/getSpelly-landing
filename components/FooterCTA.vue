@@ -8,7 +8,11 @@
             <p class="font-weight-bold">
               Help your child master spelling with Spelly the Owl.
             </p>
-            <v-btn class="elevatedButton mt-8" color="primary" size="x-large"
+            <v-btn
+              class="elevatedButton mt-8"
+              color="primary"
+              size="x-large"
+              @click="goToApp"
               >Get Started</v-btn
             >
           </v-col>
@@ -38,9 +42,13 @@
 
 <script setup>
 import { useDisplay, useTheme } from "vuetify";
+import { useAppNavigation } from "../composables/useAppNavigation";
 
 const theme = useTheme();
 const { mobile, md, lg, lgAndUp } = useDisplay();
+
+// Get app navigation
+const { goToApp } = useAppNavigation();
 
 const footerCTA = new URL("../assets/images/footerCTA-bg.jpg", import.meta.url)
   .href;

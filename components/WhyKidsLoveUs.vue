@@ -34,7 +34,7 @@
               {{ benefit.text }}
             </v-card-text>
             <v-card-text>
-              <v-btn class="elevatedButton" color="primary"
+              <v-btn class="elevatedButton" color="primary" @click="goToApp"
                 >Start Learning</v-btn
               >
             </v-card-text>
@@ -67,7 +67,7 @@
               {{ benefit.text }}
             </v-card-text>
             <v-card-text>
-              <v-btn class="elevatedButton" color="primary"
+              <v-btn class="elevatedButton" color="primary" @click="goToApp"
                 >Start Learning</v-btn
               >
             </v-card-text>
@@ -85,8 +85,12 @@
 
 <script setup>
 import { useDisplay } from "vuetify";
+import { useAppNavigation } from "../composables/useAppNavigation";
 
 const { mobile, md, lg, lgAndUp } = useDisplay();
+// Get app navigation
+const { goToApp } = useAppNavigation();
+
 const kidsBenefits1 = new URL(
   "../assets/images/kids-benefits-1.jpg",
   import.meta.url
