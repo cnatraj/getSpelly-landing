@@ -2,7 +2,7 @@
   <v-row
     :class="mobile ? '' : 'mx-16'"
     align="center"
-    v-for="(benefit, i) in props.items"
+    v-for="(benefit, i) in kidsBenefits"
     :key="i"
   >
     <template v-if="i % 2 === 0">
@@ -87,8 +87,51 @@
 import { useDisplay } from "vuetify";
 
 const { mobile, md, lg, lgAndUp } = useDisplay();
+const kidsBenefits1 = new URL(
+  "../assets/images/kids-benefits-1.jpg",
+  import.meta.url
+).href;
+const kidsBenefits2 = new URL(
+  "../assets/images/kids-benefits-2.jpg",
+  import.meta.url
+).href;
+const kidsBenefits3 = new URL(
+  "../assets/images/kids-benefits-3.jpg",
+  import.meta.url
+).href;
+const kidsBenefits4 = new URL(
+  "../assets/images/kids-benefits-4.jpg",
+  import.meta.url
+).href;
 
-const props = defineProps({
-  items: Array,
-});
+const kidsBenefits = [
+  {
+    icon: "mdi-gamepad-variant-outline",
+    chipText: "Spelling is fun",
+    title: "Turn Learning into Play!",
+    text: "Say goodbye to boring spelling drills! With Spelly, learning feels like a game. Complete fun spelling challenges that make every lesson enjoyable!",
+    image: kidsBenefits1,
+  },
+  {
+    icon: "mdi-rabbit-variant-outline",
+    chipText: "Learn at Your Pace",
+    title: "No Pressure, Just Progress!",
+    text: "Take your time and learn at your own speed! Whether you're a beginner or a spelling pro, Spelly adjusts the difficulty to match your level. Practice tricky words, replay challenges, and get better every day!",
+    image: kidsBenefits3,
+  },
+  {
+    icon: "mdi-bullhorn-outline",
+    chipText: "Hear Words Pronounced Clearly",
+    title: "Turn Learning into Play!",
+    text: "Not sure how a word sounds? No problem! Tap the speaker button to hear words pronounced correctly, helping you spell them with confidence. It’s like having your own personal spelling coach!",
+    image: kidsBenefits4,
+  },
+  {
+    icon: "mdi-shield-star-outline",
+    chipText: "Rewards & Badges",
+    title: "Collect Gems & Unlock Achievements!",
+    text: "Every word you spell correctly brings you closer to unlocking exciting rewards! Earn gems, collect badges, unlock avatars, and level up as you improve your spelling skills.",
+    image: kidsBenefits2,
+  },
+];
 </script>
