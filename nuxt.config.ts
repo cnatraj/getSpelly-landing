@@ -46,10 +46,10 @@ export default defineNuxtConfig({
     // Homepage pre-rendered at build time
     "/": { prerender: true },
     // Add more routes as needed
-    "/about": { prerender: true },
-    "/books": { prerender: true },
-    "/testimonials": { prerender: true },
-    "/contact": { prerender: true },
+    // "/about": { prerender: true },
+    // "/books": { prerender: true },
+    // "/testimonials": { prerender: true },
+    // "/contact": { prerender: true },
   },
 
   experimental: {
