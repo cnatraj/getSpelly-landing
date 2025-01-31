@@ -1,0 +1,153 @@
+@use "vuetify/settings" with (
+  $color-pack: false
+);
+
+:root {
+  font-family: "Gabarito", sans-serif !important;
+}
+
+body {
+  font-family: "Gabarito", sans-serif !important;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+/* Card overrides */
+.v-card.elevatedCard {
+  border-bottom: 0.3em solid !important;
+  border-bottom-color: #d1cac2 !important;
+}
+/* Button overrides */
+.v-btn.elevatedButton {
+  border-bottom: 0.25em solid !important;
+}
+
+.v-btn.bg-primary.elevatedButton {
+  border-bottom-color: #d06c0d !important;
+}
+
+.v-btn.bg-secondary.elevatedButton {
+  border-bottom-color: #156579 !important;
+}
+
+/* Text overrides */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-h1,
+.text-h2,
+.text-h3,
+.text-h4,
+.text-h5,
+.text-h6,
+.text-caption {
+  font-family: "Gabarito", sans-serif;
+}
+
+h1,
+.text-h1 {
+  font-weight: 700;
+  font-size: 3.5rem !important;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+
+  @media (min-width: 960px) {
+    font-size: 3.5rem !important;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 2.75rem !important;
+  }
+}
+
+h2,
+.text-h2 {
+  font-weight: 600;
+  font-size: 3.25rem !important;
+  line-height: 1.15;
+
+  letter-spacing: -0.01em;
+
+  @media (min-width: 960px) {
+    font-size: 3.25rem !important;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 2.25rem !important;
+  }
+}
+
+h3,
+.text-h3 {
+  font-weight: 600;
+  font-size: 2.25rem !important;
+  line-height: 1.05;
+
+  letter-spacing: normal;
+
+  @media (min-width: 960px) {
+    font-size: 2.25rem !important;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1.7rem !important;
+    font-weight: 500;
+  }
+}
+
+h4,
+.text-h4 {
+  font-weight: 500;
+  font-size: 1.8rem !important;
+  line-height: 1.175;
+
+  letter-spacing: normal;
+
+  @media (min-width: 960px) {
+    font-size: 1.8rem !important;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1.4rem !important;
+  }
+}
+
+h5,
+.text-h5 {
+  font-weight: 400;
+  font-size: 1.4rem !important;
+  line-height: 1.3;
+  letter-spacing: normal;
+
+  @media (min-width: 960px) {
+    font-size: 1.4rem !important;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+  }
+}
+
+h6,
+.text-h6 {
+  font-weight: 500;
+  font-size: 1.2rem !important;
+  line-height: 1.5;
+
+  letter-spacing: normal;
+
+  @media (min-width: 960px) {
+    font-size: 1.2rem !important;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1.1rem !important;
+    font-weight: 500;
+  }
+}

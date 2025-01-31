@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   css: ["vuetify/styles", "@mdi/font/css/materialdesignicons.css"],
   modules: [],
@@ -13,6 +14,8 @@ export default defineNuxtConfig({
     },
   },
 
+  ssr: true,
+
   app: {
     head: {
       htmlAttrs: {
@@ -20,14 +23,13 @@ export default defineNuxtConfig({
       },
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-    },
-  },
-
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ["/"],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap",
+        },
+      ],
     },
   },
 
