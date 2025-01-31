@@ -20,6 +20,12 @@ export default defineNuxtConfig({
     },
   },
 
+  runtimeConfig: {
+    public: {
+      appUrl: "https://app.getspelly.com",
+    },
+  },
+
   app: {
     head: {
       htmlAttrs: {
