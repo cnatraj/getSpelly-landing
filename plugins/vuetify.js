@@ -36,6 +36,7 @@ export default defineNuxtPlugin((app) => {
             section2: "#EDF7E1",
             default: "#0F0D0E",
             "on-section1": "#0F0D0E",
+            "on-background": "#0F0D0E",
           },
         },
       },
