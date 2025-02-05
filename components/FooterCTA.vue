@@ -4,16 +4,16 @@
       <v-container class="pa-16">
         <v-row justify="center" align="center" class="my-10">
           <v-col>
-            <p class="text-h1">Start your child’s adventure!</p>
+            <h2 class="text-h1">{{ props.title }}</h2>
             <p class="font-weight-bold">
-              Help your child master spelling with Spelly the Owl.
+              {{ props.subTitle }}
             </p>
             <v-btn
               class="elevatedButton mt-8"
               color="primary"
               size="x-large"
               @click="goToApp"
-              >Get Started</v-btn
+              >{{ props.buttonText }}</v-btn
             >
           </v-col>
           <v-col v-if="!mobile">
@@ -27,7 +27,7 @@
         </v-row>
       </v-container>
       <CommonShapeDivider
-        :color="theme.current.value.colors.section2"
+        :color="props.topShapeDividerColor"
         position="top"
         :invert="true"
       />
@@ -45,6 +45,25 @@ import { useDisplay, useTheme } from "vuetify";
 import { useAppNavigation } from "../composables/useAppNavigation";
 
 const theme = useTheme();
+const props = defineProps({
+  title: {
+    type: String,
+    default: "Start your child’s adventure!",
+  },
+  subTitle: {
+    type: String,
+    default: "Help your child master spelling with Spelly the Owl.",
+  },
+  buttonText: {
+    type: String,
+    default: "Get Started",
+  },
+  topShapeDividerColor: {
+    type: String,
+    default: "#EDF7E1",
+  },
+});
+
 const { mobile, md, lg, lgAndUp } = useDisplay();
 
 // Get app navigation
