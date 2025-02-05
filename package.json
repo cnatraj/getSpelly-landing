@@ -10,9 +10,10 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "vite-plugin-vuetify": "^2.1.0",
     "vue": "^3.4.38",
-    "vuetify": "^3.5.4",
-    "@mdi/font": "^7.4.47"
+    "vuetify": "^3.5.4"
   },
   "devDependencies": {
     "nuxt": "^3.10.2",
