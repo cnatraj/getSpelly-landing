@@ -6,7 +6,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="text-default" align="top">
+    <v-row class="text-default" align="start">
       <v-col cols="12" sm="6">
         <p class="text-h5">The fun way to learn how to spell!</p>
         <p class="mt-2 text-body-2">© 2025 Spelly. All rights reserved.</p>
@@ -16,11 +16,16 @@
             to="/spelling-games"
             >Spelling Games</NuxtLink
           >
+          <NuxtLink
+            class="text-subtitle-2 text-tertiary footerLink ml-2"
+            to="/spelling-test"
+            >Spelling Test</NuxtLink
+          >
         </p>
       </v-col>
 
       <v-col cols="12" sm="6">
-        <div class="mt-10">
+        <div>
           <p class="text-subtitle-2 mb-2 ml-4">Join our community</p>
           <v-text-field
             placeholder="Your email address"

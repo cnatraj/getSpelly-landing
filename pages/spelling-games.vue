@@ -17,7 +17,7 @@
         color="primary"
         size="x-large"
         @click="goToApp"
-        >Start Learning</v-btn
+        >Start Playing Now</v-btn
       >
       <div class="mt-4 text-caption">
         <span>🆓 Free</span> | <span>👦 Best for Ages 6-12</span> |
@@ -144,8 +144,6 @@
           spelling lists in a fun way!"
     button-text="Start Learning"
   />
-
-  <div class="spelling-games"></div>
 </template>
 
 <script setup>

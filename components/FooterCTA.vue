@@ -16,7 +16,7 @@
               >{{ props.buttonText }}</v-btn
             >
           </v-col>
-          <v-col v-if="!mobile">
+          <v-col md="6">
             <v-img
               :src="screenshot1"
               width="300"
