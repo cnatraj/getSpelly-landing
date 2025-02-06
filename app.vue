@@ -5,7 +5,7 @@
     >
       <NuxtPage />
 
-      <section class="bg-white pa-16">
+      <section class="bg-white pa-16 pt-0">
         <Footer />
       </section>
     </v-container>

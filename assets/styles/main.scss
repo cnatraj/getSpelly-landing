@@ -4,6 +4,11 @@
 
 :root {
   font-family: "Gabarito", sans-serif !important;
+  --primary: rgb(var(--v-theme-primary));
+  --secondary: rgb(var(--v-theme-secondary));
+  --background: rgb(var(--v-theme-background));
+  --surface: rgb(var(--v-theme-surface));
+  --text-color: rgba(var(--v-theme-default), 0.87);
 }
 
 body {
@@ -13,6 +18,15 @@ body {
 section {
   position: relative;
   overflow: hidden;
+}
+/* Footer links */
+
+.footerLink {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.footerLink:hover {
+  color: var(--v-theme-secondary);
 }
 /* Card overrides */
 .v-card.elevatedCard {
@@ -46,7 +60,9 @@ h6,
 .text-h5,
 .text-h6,
 .text-caption,
-.text-body-2 {
+.text-body-2,
+.text-subtitle-1,
+.text-subtitle-2 {
   font-family: "Gabarito", sans-serif;
 }
 

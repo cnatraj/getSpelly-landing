@@ -4,11 +4,11 @@
     <TopNav />
     <div class="mx-16 text-center">
       <h1 class="">🎮 Spelly – The Ultimate Spelling Game for Kids 🎉</h1>
-      <p>
-        Make <strong>learning spelling</strong> exciting with Spelly! Whether
-        your child is practicing for a <strong>spelling bee</strong>, improving
-        their <strong>correct spelling</strong>, or tackling a
-        <strong>spelling test</strong>, our interactive
+      <p class="text-body-1">
+        Make <strong>learning spelling</strong> exciting with Spelly! Your child
+        might be preparing for a <strong>spelling bee</strong>, practicing
+        <strong>spelling</strong>, or preparing for a for a
+        <strong>spelling test</strong>. Our fun
         <strong>spelling games</strong> will keep them engaged.
       </p>
 
@@ -74,6 +74,7 @@
         <v-col cols="auto" v-for="(item, i) in howItWorks" :key="i">
           <v-card
             width="250"
+            min-height="225"
             rounded="lg"
             bg-color="white"
             elevation="0"
@@ -191,7 +192,7 @@ const howItWorks = [
   {
     icon: "mdi-pencil-outline",
     title: "Step 2: Type the Correct Spelling",
-    text: "Students enter the correct spelling and receive instant feedback.",
+    text: "Type the word, check your answer, and keep leveling up!",
   },
   {
     icon: "mdi-trophy-outline",

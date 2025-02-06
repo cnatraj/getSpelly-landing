@@ -1,15 +1,27 @@
 <template>
   <v-container class="pa-0">
-    <v-row class="text-default" align="center">
-      <v-col cols="12" sm="6">
+    <v-row>
+      <v-col>
         <v-img :src="logo" :width="100" class="mb-2" />
+      </v-col>
+    </v-row>
+
+    <v-row class="text-default" align="top">
+      <v-col cols="12" sm="6">
         <p class="text-h5">The fun way to learn how to spell!</p>
         <p class="mt-2 text-body-2">© 2025 Spelly. All rights reserved.</p>
+        <p class="mt-2">
+          <NuxtLink
+            class="text-subtitle-2 text-tertiary footerLink"
+            to="/spelling-games"
+            >Spelling Games</NuxtLink
+          >
+        </p>
       </v-col>
 
       <v-col cols="12" sm="6">
-        <div class="mt-10 pr-16">
-          <p class="text-caption mb-2">Join our community</p>
+        <div class="mt-10">
+          <p class="text-subtitle-2 mb-2 ml-4">Join our community</p>
           <v-text-field
             placeholder="Your email address"
             rounded="pill"
