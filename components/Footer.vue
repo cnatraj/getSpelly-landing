@@ -12,14 +12,11 @@
         <p class="mt-2 text-body-2">© 2025 Spelly. All rights reserved.</p>
         <p class="mt-2">
           <NuxtLink
-            class="text-subtitle-2 text-tertiary footerLink"
-            to="/spelling-games"
-            >Spelling Games</NuxtLink
-          >
-          <NuxtLink
-            class="text-subtitle-2 text-tertiary footerLink ml-2"
-            to="/spelling-test"
-            >Spelling Test</NuxtLink
+            v-for="(item, i) in footerLinks"
+            index="i"
+            :to="item.link"
+            class="text-subtitle-2 text-tertiary footerLink mr-2"
+            >{{ item.text }}</NuxtLink
           >
         </p>
       </v-col>
@@ -46,4 +43,27 @@
 
 <script setup>
 const logo = new URL("../assets/images/spellyLogo.png", import.meta.url).href;
+
+const footerLinks = [
+  {
+    link: "/spelling-games",
+    text: "Spelling Games",
+  },
+  {
+    link: "/spelling-test",
+    text: "Spelling Test",
+  },
+  {
+    link: "/spelling-games-for-kids",
+    text: "Spelling Games for Kids",
+  },
+  {
+    link: "/kids-spelling",
+    text: "Kids Spelling",
+  },
+  {
+    link: "/childrens-spelling-games",
+    text: "Children's spelling games",
+  },
+];
 </script>

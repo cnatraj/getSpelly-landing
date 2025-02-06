@@ -19,7 +19,7 @@
         @click="goToApp"
         >Start Playing Now</v-btn
       >
-      <div class="mt-4 text-caption">
+      <div class="mt-4 text-subtitle-2">
         <span>🆓 Free</span> | <span>👦 Best for Ages 6-12</span> |
         <span>🎉 100% Fun Learning</span>
       </div>
