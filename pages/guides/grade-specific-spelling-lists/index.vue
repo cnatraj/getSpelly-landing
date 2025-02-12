@@ -19,8 +19,8 @@
       vocabulary step by step.
     </p>
     <!-- <NuxtLink to="/resources/free-spelling-worksheets" class="cta-button">
-      📥 Download Free Spelling Lists
-    </NuxtLink> -->
+        📥 Download Free Spelling Lists
+      </NuxtLink> -->
     <Shapedivider
       position="bottom"
       :color="theme.current.value.colors.section2"

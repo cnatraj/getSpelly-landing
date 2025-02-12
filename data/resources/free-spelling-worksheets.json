@@ -1,0 +1,125 @@
+{
+  "slug": "free-spelling-worksheets",
+  "title": "Free Printable Spelling Worksheets – Download & Practice",
+  "description": "Looking for **free spelling worksheets** to help students improve their spelling skills? Whether you're a **teacher, homeschool parent, or student**, our printable **spelling practice sheets** are designed to make learning fun and effective. \n\nDownload **spelling worksheets in PDF format** for different grade levels, practice spelling bee words, and explore engaging spelling activities.",
+  "image": "/images/content/grade-specific-spelling-lists.webp",
+  "meta": {
+    "title": "Free Spelling Worksheets - Printable PDF Practice Sheets",
+    "description": "Download free printable spelling worksheets for kids. Perfect for spelling practice, spelling bee preparation, and grade-level word lists.",
+    "keywords": "free spelling worksheets, printable spelling worksheets, spelling test worksheets, spelling word lists, grade spelling worksheets, homeschool spelling, spelling bee practice"
+  },
+  "content": [
+    {
+      "type": "list",
+      "heading": "📌 Why Use Printable Spelling Worksheets?",
+      "className": "bg-white",
+      "items": [
+        "✅ **Grade-Level Practice:** Tailored worksheets help kids learn at the right pace.",
+        "✅ **Interactive Learning:** Fun exercises like word searches, fill-in-the-blanks, and crossword puzzles.",
+        "✅ **Spelling Bee Preparation:** Perfect for those looking to improve spelling accuracy.",
+        "✅ **Printable & Free:** Easily download and print for classroom or home use."
+      ]
+    },
+    {
+      "type": "cta",
+      "className": "bg-section2",
+      "heading": "📥 Download Free Spelling Worksheets (PDF Format)",
+      "text": "Click on a grade level to download **free printable worksheets**.",
+      "cta_button": {
+        "text": "Download Worksheets",
+        "link": "/resources/free-spelling-worksheets#downloads"
+      }
+    },
+    {
+      "type": "table",
+      "heading": "🔹 Kindergarten to 5th Grade Spelling Worksheets",
+      "columns": ["Grade Level", "Download Link"],
+      "rows": [
+        ["Kindergarten Spelling Worksheets", "[Download PDF](#)"],
+        ["1st Grade Spelling Worksheets", "[Download PDF](#)"],
+        ["2nd Grade Spelling Worksheets", "[Download PDF](#)"],
+        ["3rd Grade Spelling Worksheets", "[Download PDF](#)"],
+        ["4th Grade Spelling Worksheets", "[Download PDF](#)"],
+        ["5th Grade Spelling Worksheets", "[Download PDF](#)"]
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "🏆 Spelling Worksheets for Spelling Bee Practice",
+      "text": "Want to prepare for a **spelling bee competition**? Check out our **spelling bee practice worksheets** featuring **challenging word lists** and **interactive spelling tests**.",
+      "link": {
+        "text": "Explore More: Spelling Bee Practice Guide",
+        "url": "/guides/spelling-bee-practice"
+      }
+    },
+    {
+      "type": "list",
+      "heading": "🎲 Fun & Interactive Spelling Activities",
+      "text": "Spelling practice doesn’t have to be boring! Try these **engaging spelling activities** that work alongside printable worksheets:",
+      "items": [
+        "**Word Searches & Crossword Puzzles**",
+        "**Scrambled Word Challenges**",
+        "**Spelling Bingo Games**",
+        "**Fill-in-the-Blank Exercises**"
+      ],
+      "link": {
+        "text": "Check out more fun spelling activities here",
+        "url": "/guides/spelling-activities-for-kids"
+      }
+    },
+    {
+      "type": "section",
+      "heading": "📖 How to Use Worksheets to Improve Spelling Skills",
+      "text": "To get the most out of spelling worksheets:\n\n🔹 **Set a Weekly Spelling List** – Focus on a new list each week.\n🔹 **Practice with Fun Games** – Combine worksheets with spelling games.\n🔹 **Test & Review** – Use worksheets for practice tests before real assessments.",
+      "link": {
+        "text": "Discover more tips here",
+        "url": "/guides/improve-spelling-skills"
+      }
+    },
+    {
+      "type": "section",
+      "heading": "📝 Spelling Worksheets by Grade Level",
+      "text": "Need spelling worksheets specific to **grade levels**? Our guides offer **customized spelling word lists** and **practice worksheets** for Kindergarten to 5th Grade.",
+      "link": {
+        "text": "Check them out here",
+        "url": "/guides/grade-specific-spelling-lists"
+      }
+    },
+    {
+      "type": "cta",
+      "heading": "📥 Get Your Free Printable Spelling Worksheets Today!",
+      "text": "📌 **Download & print spelling worksheets** to boost spelling skills in a fun way!\n📌 **Perfect for classrooms, homeschooling, and independent study.**",
+      "cta_button": {
+        "text": "Download Free Worksheets",
+        "link": "#"
+      }
+    },
+    {
+      "type": "faq",
+      "heading": "❓ Frequently Asked Questions (FAQs)",
+      "items": [
+        {
+          "question": "What grade levels are these spelling worksheets for?",
+          "answer": "We provide spelling worksheets for **Kindergarten to 5th Grade**, covering essential spelling words and practice exercises."
+        },
+        {
+          "question": "Are these worksheets free to download?",
+          "answer": "Yes! 🎉 All worksheets are **completely free to download and print**."
+        },
+        {
+          "question": "How can I use these worksheets for homeschooling?",
+          "answer": "These worksheets are designed for **self-paced learning**. You can print them out and use them for **daily or weekly spelling practice**."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "🚀 Start Practicing with Free Spelling Worksheets Today!",
+      "text": "📌 **Improve spelling skills** with printable worksheets.\n📌 **Engage kids in fun, interactive spelling activities.**\n📌 **Prepare for spelling tests and competitions.**",
+      "cta_button": {
+        "text": "Download Free Spelling Worksheets",
+        "link": "#"
+      }
+    }
+  ]
+}

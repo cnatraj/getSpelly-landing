@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import vuetify from "vite-plugin-vuetify";
+import { promises as fs } from "fs";
+import path from "path";
 
 export default defineNuxtConfig({
   css: ["vuetify/styles", "@mdi/font/css/materialdesignicons.css"],
@@ -24,7 +26,20 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ["/"],
+      routes: async () => {
+        const resourcesDir = path.resolve("data/resources");
+        try {
+          const files = await fs.readdir(resourcesDir);
+          const resourceRoutes = files
+            .filter((file) => file.endsWith(".json"))
+            .map((file) => `/resources/${file.replace(".json", "")}`);
+
+          return ["/", "/resources", ...resourceRoutes];
+        } catch (error) {
+          console.error("Error reading resource files:", error);
+          return ["/", "/resources"];
+        }
+      },
     },
   },
 
