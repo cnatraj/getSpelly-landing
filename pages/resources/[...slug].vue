@@ -1,24 +1,23 @@
 <template>
   <div v-if="resource">
     <!-- Hero Section -->
-    <section class="text-center bg-white">
-      <v-img :src="resource.image" height="300" cover>
-        <Shapedivider
-          :color="theme.current.value.colors.white"
-          position="bottom"
-          :flip="true"
-        />
-      </v-img>
-      <h1 class="text-h1 mt-4">{{ resource.title }}</h1>
-      <p
+    <section class="text-center bg-section3 pb-16">
+      <v-img :src="resource.image" height="300" cover> </v-img>
+      <h1 class="text-h1 mt-8">{{ resource.title }}</h1>
+      <div
         class="sectionContainer"
         v-html="parseMarkdown(resource.description)"
-      ></p>
+      ></div>
+      <Shapedivider
+        :color="theme.current.value.colors.white"
+        position="bottom"
+        :flip="true"
+      />
     </section>
     <!-- End Hero Section -->
 
     <Head>
-      <Title>{{ resource.meta.title }} asdfadsf</Title>
+      <Title>{{ resource.meta.title }}</Title>
       <Meta name="description" :content="resource.meta.description" />
       <Meta name="keywords" :content="resource.meta.keywords" />
     </Head>
@@ -31,14 +30,15 @@
     >
       <!-- Content Section -->
       <div class="sectionContainer">
-        <h2 class="text-h2 text-center">
+        <h2 class="text-h3">
           {{ section.heading }}
         </h2>
-        <p
+
+        <div
           class="mt-4"
           v-if="section.text"
           v-html="parseMarkdown(section.text)"
-        ></p>
+        ></div>
 
         <!-- List Items -->
         <v-list v-if="section.type === 'list'">
@@ -60,7 +60,7 @@
         </div>
 
         <!-- Table Section -->
-        <v-table>
+        <v-table class="mt-4">
           <thead class="bg-section3">
             <tr>
               <th v-for="col in section.columns" :key="col">
@@ -70,9 +70,11 @@
           </thead>
           <tbody>
             <tr v-for="(row, i) in section.rows" :key="i">
-              <td v-for="(cell, j) in row" :key="j">
-                {{ cell }}
-              </td>
+              <td
+                v-for="(cell, j) in row"
+                :key="j"
+                v-html="parseMarkdown(cell)"
+              ></td>
             </tr>
           </tbody>
         </v-table>
@@ -86,29 +88,62 @@
 
         <!-- FAQ Section-->
         <v-expansion-panels v-if="section.type === 'faq'" class="mt-4 pb-4">
-          <v-expansion-panel
-            v-for="(faq, i) in section.items"
-            :key="i"
-            :title="parseMarkdown(faq.question)"
-            :text="parseMarkdown(faq.answer)"
-          ></v-expansion-panel>
+          <v-expansion-panel v-for="(faq, i) in section.items" :key="i">
+            <v-expansion-panel-title
+              v-html="parseMarkdown(faq.question)"
+            ></v-expansion-panel-title>
+            <v-expansion-panel-text
+              v-html="parseMarkdown(faq.answer)"
+            ></v-expansion-panel-text>
+          </v-expansion-panel>
         </v-expansion-panels>
       </div>
+    </section>
+
+    <section v-if="resource.spellyPlug">
+      <FooterCTA
+        :title="resource.spellyPlug.heading"
+        :subTitle="resource.spellyPlug.text"
+        :buttonText="resource.spellyPlug.cta_button.text"
+        :topShapeDividerColor="theme.current.value.colors.white"
+      />
     </section>
   </div>
 </template>
 
 <script setup>
 import Shapedivider from "../components/common/shapeDivider.vue";
-import { useRoute } from "vue-router";
-import { useDisplay, useTheme } from "vuetify";
+import { useRoute, useRouter } from "vue-router";
+import { useTheme } from "vuetify";
 import { marked } from "marked"; // Import markdown parser
+import FooterCTA from "../components/FooterCTA.vue";
 
 const route = useRoute();
+const router = useRouter();
 const theme = useTheme();
 
+// Extract slug parts from URL
+const slugParts = Array.isArray(route.params.slug)
+  ? route.params.slug
+  : [route.params.slug];
+
+let pageData = null;
+let subpages = [];
+
+// Determine file path based on slug parts
+let filePath;
+if (slugParts.length === 1) {
+  // If only one part (e.g., "/resources/free-spelling-worksheets"), load "index.json"
+  filePath = `~/data/resources/${slugParts[0]}/index.json`;
+} else {
+  // If more than one part (e.g., "/resources/free-spelling-worksheets/printable-pdf")
+  filePath = `~/data/resources/${slugParts[0]}/${slugParts
+    .slice(1)
+    .join("-")}.json`;
+}
+
 const { data: resource } = await useAsyncData(() =>
-  import(`~/data/resources/${route.params.slug}.json`).then((m) => m.default)
+  import(filePath).then((m) => m.default)
 );
 
 // SEO Meta Tags

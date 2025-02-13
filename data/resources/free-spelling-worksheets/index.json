@@ -2,7 +2,7 @@
   "slug": "free-spelling-worksheets",
   "title": "Free Printable Spelling Worksheets – Download & Practice",
   "description": "Looking for **free spelling worksheets** to help students improve their spelling skills? Whether you're a **teacher, homeschool parent, or student**, our printable **spelling practice sheets** are designed to make learning fun and effective. \n\nDownload **spelling worksheets in PDF format** for different grade levels, practice spelling bee words, and explore engaging spelling activities.",
-  "image": "/images/content/grade-specific-spelling-lists.webp",
+  "image": "/images/content/resources/worksheets.jpeg",
   "meta": {
     "title": "Free Spelling Worksheets - Printable PDF Practice Sheets",
     "description": "Download free printable spelling worksheets for kids. Perfect for spelling practice, spelling bee preparation, and grade-level word lists.",
@@ -35,12 +35,30 @@
       "heading": "🔹 Kindergarten to 5th Grade Spelling Worksheets",
       "columns": ["Grade Level", "Download Link"],
       "rows": [
-        ["Kindergarten Spelling Worksheets", "[Download PDF](#)"],
-        ["1st Grade Spelling Worksheets", "[Download PDF](#)"],
-        ["2nd Grade Spelling Worksheets", "[Download PDF](#)"],
-        ["3rd Grade Spelling Worksheets", "[Download PDF](#)"],
-        ["4th Grade Spelling Worksheets", "[Download PDF](#)"],
-        ["5th Grade Spelling Worksheets", "[Download PDF](#)"]
+        [
+          "Kindergarten Spelling Worksheets",
+          "[Download PDF](free-spelling-worksheets/kindergarten-spelling-worksheets)"
+        ],
+        [
+          "1st Grade Spelling Worksheets",
+          "[Download PDF](free-spelling-worksheets/1st-grade-spelling-worksheets)"
+        ],
+        [
+          "2nd Grade Spelling Worksheets",
+          "[Download PDF](free-spelling-worksheets/2nd-grade-spelling-worksheets)"
+        ],
+        [
+          "3rd Grade Spelling Worksheets",
+          "[Download PDF](free-spelling-worksheets/3rd-grade-spelling-worksheets)"
+        ],
+        [
+          "4th Grade Spelling Worksheets",
+          "[Download PDF](free-spelling-worksheets/4th-grade-spelling-worksheets)"
+        ],
+        [
+          "5th Grade Spelling Worksheets",
+          "[Download PDF](free-spelling-worksheets/5th-grade-spelling-worksheets)"
+        ]
       ]
     },
     {
@@ -121,5 +139,13 @@
         "link": "#"
       }
     }
-  ]
+  ],
+  "spellyPlug": {
+    "heading": "Start impoving your spelling skills today!",
+    "text": "Help your child master spelling with Spelly the owl",
+    "cta_button": {
+      "text": "Start Learning",
+      "link": "#"
+    }
+  }
 }
