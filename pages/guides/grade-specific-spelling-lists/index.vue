@@ -13,6 +13,7 @@
       />
     </v-img>
 
+    <v-breadcrumbs :items="breadcrumbs" class="px-0 mb-8 ml-4"></v-breadcrumbs>
     <h1 class="text-h1 text-center mt-4">📖 Grade Specific Spelling Lists</h1>
     <p class="text-subtitle-1 text-center">
       Find the perfect spelling words for every grade level and improve
@@ -216,9 +217,68 @@ import {
 const theme = useTheme();
 // Get app navigation
 const { goToApp } = useAppNavigation();
+const { breadcrumbs } = useBreadcrumbs();
 
 const heroImage = new URL("/assets/images/hero-section-bg.jpg", import.meta.url)
   .href;
+
+useHead({
+  title: "Grade-Specific Spelling Lists | Spelly – Spelling Words for Kids",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore grade-specific spelling lists for Kindergarten to 5th grade. Download free spelling word lists and worksheets to help kids improve their spelling skills.",
+    },
+    {
+      name: "keywords",
+      content:
+        "spelling lists, grade-specific spelling words, spelling words for kids, spelling word lists by grade, spelling practice, kindergarten spelling, 1st grade spelling words, 2nd grade spelling lists, 3rd grade spelling, 4th grade spelling words, 5th grade spelling lists",
+    },
+    {
+      property: "og:title",
+      content:
+        "Grade-Specific Spelling Lists | Spelly – Spelling Words for Kids",
+    },
+    {
+      property: "og:description",
+      content:
+        "Explore grade-specific spelling lists for Kindergarten to 5th grade. Download free spelling word lists and worksheets to help kids improve their spelling skills.",
+    },
+    // {
+    //   property: "og:image",
+    //   content:
+    //     "https://getspelly.com/images/grade-specific-spelling-lists-preview.png",
+    // },
+    {
+      property: "og:url",
+      content: "https://getspelly.com/guides/grade-specific-spelling-lists/",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content:
+        "Grade-Specific Spelling Lists | Spelly – Spelling Words for Kids",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Explore grade-specific spelling lists for Kindergarten to 5th grade. Download free spelling word lists and worksheets to help kids improve their spelling skills.",
+    },
+    // {
+    //   name: "twitter:image",
+    //   content:
+    //     "https://getspelly.com/images/grade-specific-spelling-lists-preview.png",
+    // },
+  ],
+});
 
 // Grade-Level Data
 const gradeLevels = ref([

@@ -2,7 +2,7 @@
   <!-- Hero Section -->
   <section class="text-center bg-section3 pb-16">
     <v-img :src="props.resource.image" height="300" cover> </v-img>
-    <v-breadcrumbs :items="breadcrumbs" class="px-0 mb-8"></v-breadcrumbs>
+    <v-breadcrumbs :items="breadcrumbs" class="px-0 mb-8 ml-4"></v-breadcrumbs>
     <h1 class="sectionContainer text-h1 mt-8">{{ props.resource.title }}</h1>
     <div
       class="sectionContainer"

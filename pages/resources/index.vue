@@ -20,7 +20,7 @@
             :link="`/resources/${resource.slug}`"
             :image="`${resource.image}`"
             :title="resource.title"
-            :description="resource.description"
+            :description="resource.shortDescription"
           ></PillarPageCards>
         </v-col>
       </v-row>
