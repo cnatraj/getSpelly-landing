@@ -26,20 +26,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: async () => {
-        const resourcesDir = path.resolve("data/resources");
-        try {
-          const files = await fs.readdir(resourcesDir);
-          const resourceRoutes = files
-            .filter((file) => file.endsWith(".json"))
-            .map((file) => `/resources/${file.replace(".json", "")}`);
-
-          return ["/", "/resources", ...resourceRoutes];
-        } catch (error) {
-          console.error("Error reading resource files:", error);
-          return ["/", "/resources"];
-        }
-      },
+      routes: ["/"],
     },
   },
 
@@ -89,3 +76,22 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2025-01-30",
 });
+
+async function getDynamicRoutes() {
+  const resourcesDir = path.join(process.cwd(), "data/resources");
+
+  try {
+    // Read all JSON files from the resources directory
+    const files = await fs.readdir(resourcesDir);
+
+    // Generate routes from JSON filenames
+    const resourceRoutes = files
+      .filter((file) => file.endsWith(".json"))
+      .map((file) => `/resources/${file.replace(".json", "")}`);
+
+    return ["/", "/resources", ...resourceRoutes];
+  } catch (error) {
+    console.error("❌ Error reading resource files:", error);
+    return ["/", "/resources"];
+  }
+}
