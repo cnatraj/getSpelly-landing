@@ -1,15 +1,15 @@
 <template>
   <v-container class="pa-0">
-    <v-row>
+    <v-row no-gutters>
       <v-col>
-        <v-img :src="logo" :width="100" class="mb-2" />
+        <v-img :src="logo" :width="100" class="" />
       </v-col>
     </v-row>
 
-    <v-row class="text-default" align="start">
+    <v-row class="text-default" align="start" no-gutters>
       <v-col cols="12" sm="6">
         <p class="text-h5">The fun way to learn how to spell!</p>
-        <p class="mt-2 text-body-2">© 2025 Spelly. All rights reserved.</p>
+
         <p class="mt-2">
           <NuxtLink
             v-for="(item, i) in footerLinks"
@@ -19,10 +19,7 @@
             >{{ item.text }}</NuxtLink
           >
         </p>
-      </v-col>
-
-      <v-col cols="12" sm="6">
-        <div>
+        <div class="mt-4">
           <p class="text-subtitle-2 mb-2 ml-4">Join our community</p>
           <v-text-field
             placeholder="Your email address"
@@ -36,6 +33,38 @@
             </template>
           </v-text-field>
         </div>
+      </v-col>
+
+      <v-col cols="12" sm="6">
+        <div class="d-flex">
+          <div class="footerContentLinks mr-4">
+            <div class="text-body-1 font-weight-bold text-medium-emphasis">
+              Guides
+            </div>
+            <div
+              class="text-subtitle-2 text-medium-emphasis text-secondary"
+              v-for="(resource, i) in guides"
+            >
+              <NuxtLink :to="resource.link" class="footerLink">{{
+                resource.text
+              }}</NuxtLink>
+            </div>
+          </div>
+          <div class="footerContentLinks">
+            <div class="text-body-1 font-weight-bold text-medium-emphasis">
+              Resources
+            </div>
+            <div
+              class="text-subtitle-2 text-medium-emphasis text-secondary"
+              v-for="(resource, i) in resources"
+            >
+              <NuxtLink :to="resource.link" class="footerLink">{{
+                resource.text
+              }}</NuxtLink>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 text-body-2">© 2025 Spelly. All rights reserved.</p>
       </v-col>
     </v-row>
   </v-container>
@@ -66,4 +95,35 @@ const footerLinks = [
     text: "Children's spelling games",
   },
 ];
+
+const guides = [
+  {
+    link: "/guides/grade-specific-spelling-lists",
+    text: "Grade-Specific Spelling Lists",
+  },
+  {
+    link: "/guides/improve-spelling-skills",
+    text: "Improve Spelling Skills",
+  },
+  {
+    link: "/guides/spelling-activities-for-kids",
+    text: "Spelling Activities for Kids",
+  },
+  {
+    link: "/guides/spelling-bee-practice",
+    text: "Spelling Bee Practice",
+  },
+];
+const resources = [
+  {
+    link: "/resources/free-spelling-worksheets",
+    text: "Free Spelling Worksheets",
+  },
+];
 </script>
+
+<style scoped>
+.footerContentLinks {
+  max-width: 200px;
+}
+</style>

@@ -2,7 +2,8 @@
   <!-- Hero Section -->
   <section class="text-center bg-section3 pb-16">
     <v-img :src="props.resource.image" height="300" cover> </v-img>
-    <h1 class="text-h1 mt-8">{{ props.resource.title }}</h1>
+    <v-breadcrumbs :items="breadcrumbs" class="px-0 mb-8"></v-breadcrumbs>
+    <h1 class="sectionContainer text-h1 mt-8">{{ props.resource.title }}</h1>
     <div
       class="sectionContainer"
       v-html="parseMarkdown(props.resource.description)"
@@ -119,6 +120,8 @@ const route = useRoute();
 const props = defineProps({
   resource: Object,
 });
+
+const { breadcrumbs } = useBreadcrumbs();
 // SEO Meta Tags
 useHead({
   title: props.resource.meta.title,
