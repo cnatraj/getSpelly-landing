@@ -117,10 +117,10 @@ useHead({
       content:
         "Make spelling fun with Spelly! Play interactive spelling games, practice with worksheets, and improve spelling skills with engaging challenges.",
     },
-    // {
-    //   property: "og:image",
-    //   content: "/images/og-image.jpg",
-    // },
+    {
+      property: "og:image",
+      content: "/images/spellySiteImage.jpg",
+    },
     {
       property: "og:url",
       content: "https://getspelly.com",
@@ -143,10 +143,10 @@ useHead({
       content:
         "Make spelling fun with Spelly! Play interactive spelling games, practice with worksheets, and improve spelling skills with engaging challenges.",
     },
-    // {
-    //   name: "twitter:image",
-    //   content: "/images/og-image.jpg",
-    // },
+    {
+      name: "twitter:image",
+      content: "/images/spellySiteImage.jpg",
+    },
     // Additional SEO tags
     {
       name: "keywords",
