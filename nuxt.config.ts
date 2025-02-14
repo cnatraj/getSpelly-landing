@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
+    "nuxt-gtag",
     async (options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) =>
         config.plugins.push(vuetify())
@@ -74,6 +75,10 @@ export default defineNuxtConfig({
     payloadExtraction: true,
     renderJsonPayloads: true,
     viewTransition: true,
+  },
+
+  gtag: {
+    id: "G-KEPY721XX9",
   },
 
   compatibilityDate: "2025-01-30",
