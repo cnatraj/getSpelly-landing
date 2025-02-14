@@ -97,6 +97,75 @@ import TopNav from "../components/TopNav.vue";
 // Get theme instance
 const theme = useTheme();
 
+// Set meta tags for the home page
+useHead({
+  title:
+    "Spelly – Fun & Interactive Spelling Games for Kids | Learn & Master Spelling",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Make spelling fun with Spelly! Interactive spelling games, worksheets, and activities designed for kids in grades 1-5. Improve spelling skills with engaging challenges and practice tools. Try Spelly for free today!",
+    },
+    // Open Graph
+    {
+      property: "og:title",
+      content: "Spelly – Fun & Interactive Spelling Games for Kids",
+    },
+    {
+      property: "og:description",
+      content:
+        "Make spelling fun with Spelly! Play interactive spelling games, practice with worksheets, and improve spelling skills with engaging challenges.",
+    },
+    // {
+    //   property: "og:image",
+    //   content: "/images/og-image.jpg",
+    // },
+    {
+      property: "og:url",
+      content: "https://getspelly.com",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    // Twitter Card
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content: "Spelly – Fun & Interactive Spelling Games for Kids",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Make spelling fun with Spelly! Play interactive spelling games, practice with worksheets, and improve spelling skills with engaging challenges.",
+    },
+    // {
+    //   name: "twitter:image",
+    //   content: "/images/og-image.jpg",
+    // },
+    // Additional SEO tags
+    {
+      name: "keywords",
+      content:
+        "spelling games, spelling activities, free spelling worksheets, spelling practice, learn spelling, spelling bee, spelling test, spelling words for kids, fun spelling games, online spelling games",
+    },
+    {
+      name: "author",
+      content: "GetSpelly",
+    },
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://getspelly.com",
+    },
+  ],
+});
+
 // get screen size
 const { mobile, md, lg, lgAndUp } = useDisplay();
 
