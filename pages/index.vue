@@ -3,7 +3,7 @@
     <v-img
       :src="heroImage"
       cover
-      height="650"
+      height="600"
       position="left top"
       class="rounded-lg heroSectionGradient"
     >
@@ -31,7 +31,15 @@
           </v-col>
         </v-row>
       </div>
-
+      <!-- Floating Arrow -->
+      <div class="scroll-indicator" @click="scrollToContent">
+        <v-avatar
+          icon="mdi-chevron-down"
+          size="x-large"
+          class="floating-arrow opacity-50"
+          color="black"
+        ></v-avatar>
+      </div>
       <CommonShapeDivider
         :color="theme.current.value.colors.section1"
         position="bottom"
@@ -39,7 +47,7 @@
     </v-img>
   </section>
 
-  <section class="bg-section1 py-16">
+  <section class="bg-section1 py-16" id="content">
     <div class="text-center">
       <v-chip color="secondary" variant="flat">Your spelling companion </v-chip>
       <h3 class="my-6">Meet Spelly – Your Friendly Spelling Guide!</h3>
@@ -95,6 +103,14 @@ const { mobile, md, lg, lgAndUp } = useDisplay();
 // Get app navigation
 const { goToApp } = useAppNavigation();
 
+// Function to scroll to content
+const scrollToContent = () => {
+  document.getElementById("content").scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+};
+
 const heroImage = new URL(
   "../assets/images/hero-section-bg.jpg",
   import.meta.url
@@ -117,5 +133,43 @@ const appScreenshots = new URL(
     rgba(255, 255, 255, 0.35) 40%,
     rgba(237, 248, 225, 0) 70%
   );
+}
+
+.hero-seadsction {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.floating-arrow {
+  animation: float 2s ease-in-out infinite;
+  color: var(--v-theme-primary);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Hover effect for the arrow */
+.scroll-indicator:hover .floating-arrow {
+  animation-play-state: paused;
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
 }
 </style>
