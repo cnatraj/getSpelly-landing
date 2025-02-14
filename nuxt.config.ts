@@ -26,7 +26,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ["/"],
+      routes: ["/", "/resources", "/guides"],
     },
   },
 
@@ -62,8 +62,8 @@ export default defineNuxtConfig({
     // Homepage pre-rendered at build time
     "/": { prerender: true },
     // Add more routes as needed
-    // "/about": { prerender: true },
-    // "/books": { prerender: true },
+    "/resources/**": { prerender: true },
+    "/guides/**": { prerender: true },
     // "/testimonials": { prerender: true },
     // "/contact": { prerender: true },
   },
