@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
+    "@nuxtjs/robots": "^5.2.2",
+    "@nuxtjs/sitemap": "^7.2.4",
     "marked": "^15.0.7",
     "vite-plugin-vuetify": "^2.1.0",
     "vue": "^3.4.38",

@@ -6,6 +6,8 @@ import path from "path";
 export default defineNuxtConfig({
   css: ["vuetify/styles", "@mdi/font/css/materialdesignicons.css"],
   modules: [
+    "@nuxtjs/sitemap",
+    "@nuxtjs/robots",
     async (options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) =>
         config.plugins.push(vuetify())
