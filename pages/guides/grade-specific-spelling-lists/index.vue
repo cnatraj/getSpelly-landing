@@ -283,14 +283,6 @@ useHead({
 // Grade-Level Data
 const gradeLevels = ref([
   {
-    slug: "kindergarten-spelling-words",
-    title: "🧸 Kindergarten Spelling Words",
-    description:
-      "Simple words for early learners to build confidence in spelling. At the kindergarten level, children learn simple CVC words (consonant-vowel-consonant) and basic sight words. These words help young learners build early reading and spelling confidence.",
-    words: kindergartenWords,
-    tip: "Encourage children to use flashcards or magnetic letters to spell out words. Saying the word out loud and tracing the letters with their fingers can also help improve letter recognition.",
-  },
-  {
     slug: "1st-grade-spelling-words",
     title: "🎈 1st Grade Spelling Words",
     description:
