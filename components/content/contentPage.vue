@@ -5,7 +5,7 @@
     <v-breadcrumbs :items="breadcrumbs" class="px-0 mb-8 ml-4"></v-breadcrumbs>
     <h1 class="sectionContainer text-h1 mt-8">{{ props.resource.title }}</h1>
     <div
-      class="sectionContainer"
+      class="sectionContainer text-left"
       v-html="parseMarkdown(props.resource.description)"
     ></div>
     <Shapedivider
@@ -26,11 +26,14 @@
   <section
     v-for="section in props.resource.content"
     :key="section.heading"
-    class="pt-16 bg-white"
+    class="pt-16 bg-white text-body-1"
   >
     <!-- Content Section -->
     <div class="sectionContainer">
-      <h2 class="text-h3">
+      <h3 v-if="section.headingTag === 'h3'" class="text-h4">
+        {{ section.heading }}
+      </h3>
+      <h2 v-else class="text-h3">
         {{ section.heading }}
       </h2>
 
@@ -43,7 +46,7 @@
       <!-- List Items -->
       <v-list v-if="section.type === 'list'">
         <v-list-item v-for="(item, i) in section.items" :key="i">
-          <v-list-item-title v-html="parseMarkdown(item)"></v-list-item-title>
+          <div v-html="parseMarkdown(item)"></div>
         </v-list-item>
       </v-list>
 
@@ -57,8 +60,8 @@
       </div>
 
       <!-- Table Section -->
-      <v-table class="mt-4" v-if="section.type === 'table'">
-        <thead class="bg-section3">
+      <v-table class="mt-4 text-body-1" v-if="section.type === 'table'">
+        <thead class="bg-section3" v-if="section.columns">
           <tr>
             <th v-for="col in section.columns" :key="col">
               {{ col }}
