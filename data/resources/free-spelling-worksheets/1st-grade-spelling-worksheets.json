@@ -18,9 +18,8 @@
       "text": "Each worksheet is carefully crafted to cover a range of age-appropriate spelling words. With fun exercises, practice pages, and colorful visuals, these worksheets are designed to keep your child engaged while learning vital spelling concepts Learning to spell in 1st grade is a crucial milestone! These printable spelling worksheets help first graders build vocabulary, improve reading skills, and gain confidence in their spelling abilities."
     },
     {
-      "type": "list",
       "heading": "📌 Why Practice Spelling in 1st Grade?",
-      "items": [
+      "list": [
         "Early reading development – Learning to spell improves reading fluency.",
         "Builds strong vocabulary – Helps kids recognize and use new words.",
         "Boosts confidence – Mastering spelling gives kids a sense of achievement.",
@@ -32,47 +31,47 @@
       }
     },
     {
-      "type": "table",
       "heading": "📥 Download Free 1st Grade Spelling Worksheets",
-      "columns": ["Worksheet Name", "Description", "Download Link"],
-      "rows": [
-        [
-          "📖 1st Grade Essential Words",
-          "Core spelling words that first graders should master.",
-          "[Download](/pdf/content/resources/1st-grade-essential-words.pdf)"
-        ],
-        [
-          "👀 1st Grade Sight Words",
-          "Key sight words for early readers to improve fluency.",
-          "[Download](/pdf/content/resources/1st-grade-sight-words.pdf)"
-        ],
-        [
-          "🏆 1st Grade Spelling Bee Words",
-          "Challenging words to prepare for spelling bees.",
-          "[Download](/pdf/content/resources/1st-grade-spelling-bee-words.pdf)"
-        ],
-        [
-          "✅ 1st Grade Spelling Challenge",
-          "Identify the correct spelling from three choices.",
-          "[Download](/pdf/content/resources/1st-grade-spelling-challenge.pdf)"
-        ],
-        [
-          "🔠 1st Grade Jumbled Words",
-          "Unscramble letters to form the correct spelling.",
-          "[Download](/pdf/content/resources/1st-grade-jumbled-words.pdf)"
-        ],
-        [
-          "📅 1st Grade Weekly Spelling Lists",
-          "A structured program with weekly spelling words.",
-          "[Download](/pdf/content/resources/1st-grade-weekly-spelling-lists.pdf)"
+      "table": {
+        "columns": ["Worksheet Name", "Description", "Download Link"],
+        "rows": [
+          [
+            "📖 1st Grade Essential Words",
+            "Core spelling words that first graders should master.",
+            "[Download](/pdf/content/resources/1st-grade-essential-words.pdf)"
+          ],
+          [
+            "👀 1st Grade Sight Words",
+            "Key sight words for early readers to improve fluency.",
+            "[Download](/pdf/content/resources/1st-grade-sight-words.pdf)"
+          ],
+          [
+            "🏆 1st Grade Spelling Bee Words",
+            "Challenging words to prepare for spelling bees.",
+            "[Download](/pdf/content/resources/1st-grade-spelling-bee-words.pdf)"
+          ],
+          [
+            "✅ 1st Grade Spelling Challenge",
+            "Identify the correct spelling from three choices.",
+            "[Download](/pdf/content/resources/1st-grade-spelling-challenge.pdf)"
+          ],
+          [
+            "🔠 1st Grade Jumbled Words",
+            "Unscramble letters to form the correct spelling.",
+            "[Download](/pdf/content/resources/1st-grade-jumbled-words.pdf)"
+          ],
+          [
+            "📅 1st Grade Weekly Spelling Lists",
+            "A structured program with weekly spelling words.",
+            "[Download](/pdf/content/resources/1st-grade-weekly-spelling-lists.pdf)"
+          ]
         ]
-      ]
+      }
     },
     {
-      "type": "list",
       "heading": "🏆 Fun & Engaging Spelling Activities",
       "text": "Make spelling fun with these engaging activities:",
-      "items": [
+      "list": [
         "Spelling Bingo – Match words to pictures for quick recognition.",
         "Word Search – Find spelling words hidden in a fun puzzle.",
         "Jumbled Letters – Unscramble words to test spelling skills.",
@@ -84,9 +83,8 @@
       }
     },
     {
-      "type": "list",
       "heading": "📖 How to Improve Spelling Skills in 1st Grade",
-      "items": [
+      "list": [
         "Practice daily – Use printable worksheets & spelling lists.",
         "Make it interactive – Use games & fun spelling challenges.",
         "Use repetition – Write, read, and say words aloud.",
@@ -98,9 +96,8 @@
       }
     },
     {
-      "type": "faq",
       "heading": "❓ Frequently Asked Questions (FAQs)",
-      "items": [
+      "faq": [
         {
           "question": "What words should a 1st grader know how to spell?",
           "answer": "A 1st grader should practice basic spelling words, sight words, and simple vocabulary like 'cat,' 'jump,' 'school,' and 'yellow.'"
@@ -116,10 +113,9 @@
       ]
     },
     {
-      "type": "list",
       "heading": "📚 Explore More Spelling Worksheets",
       "text": "Looking for spelling worksheets for other grades? Check out these resources:",
-      "items": [
+      "list": [
         "**1st Grade Spelling Worksheets (You are here!)**",
         "[2nd Grade Spelling Worksheets](/resources/free-spelling-worksheets/2nd-grade-spelling-worksheets)",
         "[3rd Grade Spelling Worksheets](/resources/free-spelling-worksheets/3rd-grade-spelling-worksheets)",

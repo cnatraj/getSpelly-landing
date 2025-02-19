@@ -1,7 +1,7 @@
 {
   "slug": "3rd-grade-spelling-words",
   "title": "3rd Grade Spelling Words",
-  "description": "3rd Grade Spelling Words and Activities help students build essential literacy skills through structured word lists, engaging exercises, and interactive learning methods. This guide provides key spelling expectations, commonly misspelled words, and practical worksheets to support 3rd graders in mastering spelling.",
+  "description": "3rd-grade spelling words and activities help students improve their reading and writing skills. This guide includes word lists, fun exercises, and interactive learning methods. It covers key spelling rules, common mistakes, and helpful worksheets to support 3rd graders in mastering spelling.",
   "image": "/images/content/guides/3rd-grade-spelling-words.webp",
   "meta": {
     "title": "3rd Grade Spelling Words | Word Lists & Practice Tips",
@@ -15,249 +15,259 @@
     {
       "type": "section",
       "heading": "Importance of Spelling Proficiency in 3rd Grade",
-      "text": "Spelling proficiency in 3rd grade is a crucial milestone in a child’s literacy journey. At this stage, students transition from simple phonetic spellings to more complex word structures, enabling them to read and write with confidence. Strong spelling skills enhance vocabulary acquisition, reading fluency, and overall comprehension, setting the foundation for advanced language skills in higher grades."
+      "text": "Third grade is an important time for learning to spell. At this stage, students move from simple sounds to more complex words. Good spelling skills help them read and write with confidence. Strong spelling also improves vocabulary, reading speed, and understanding. These skills build a strong foundation for future learning."
     },
     {
-      "type": "list",
       "heading": "Why is Spelling Important for 3rd Graders?",
-      "text": "Research shows that children who struggle with spelling often face challenges in other academic areas, particularly in reading and writing. Poor spelling skills can lead to difficulty in constructing sentences, misinterpretation of texts, and lower scores in language arts. Conversely, strong spelling skills contribute to higher literacy achievement and overall academic success. Here’s why spelling is important:",
-      "items": [
-        "📖 Improves Reading – Helps students read smoothly and understand texts.",
-        "✍️ Boosts Writing – Builds confidence by reducing spelling mistakes.",
-        "📚 Expands Vocabulary – Introduces new words and meanings.",
-        "🧠 Sharpens Thinking – Strengthens memory and problem-solving skills."
+      "text": "Studies show that kids who struggle with spelling often find reading and writing harder. Poor spelling can make it tough to form sentences, understand texts, and do well in language arts. On the other hand, strong spelling skills help students succeed in school. Here’s why spelling matters:",
+      "list": [
+        "**📖 Helps with Reading** – Makes reading easier and improves understanding.",
+        "**✍️ Improves Writing** – Reduces mistakes and boosts confidence.",
+        "**📚 Grows Vocabulary** – Teaches new words and meanings.",
+        "**🧠 Sharpens Thinking** – Strengthens memory and problem-solving skills."
       ]
     },
     {
       "type": "section",
       "heading": "Phonics-Based 3rd grade Spelling Words",
-      "text": "A phonics-based approach to spelling helps students develop strong letter-sound relationships, making it easier to decode unfamiliar words and improve reading fluency. Below is a categorized list of phonetic patterns to aid in spelling mastery."
+      "text": "Phonics helps students connect letters to sounds, making spelling easier. This approach also helps them read new words more easily and improves reading skills. Below is a list of phonetic patterns to support spelling practice."
     },
     {
-      "type": "table",
       "heading": "Words with Short a",
       "headingTag": "h3",
-      "rows": [
-        ["basket", "cabin", "planet"],
-        ["cactus", "magnet", "actor"],
-        ["chapter", "lantern", "vanish"],
-        ["hazard", "talent", "rapid"],
-        ["banner", "saddle", "panic"]
-      ]
+      "table": {
+        "rows": [
+          ["basket", "cabin", "planet"],
+          ["cactus", "magnet", "actor"],
+          ["chapter", "lantern", "vanish"],
+          ["hazard", "talent", "rapid"],
+          ["banner", "saddle", "panic"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Long a",
       "headingTag": "h3",
-      "rows": [
-        ["afraid", "amaze", "daylight"],
-        ["parade", "escape", "patience"],
-        ["neighbor", "obey", "display"],
-        ["remain", "basement", "gateway"],
-        ["painter", "bracelet", "statement"]
-      ]
+      "table": {
+        "rows": [
+          ["afraid", "amaze", "daylight"],
+          ["parade", "escape", "patience"],
+          ["neighbor", "obey", "display"],
+          ["remain", "basement", "gateway"],
+          ["painter", "bracelet", "statement"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Short e",
       "headingTag": "h3",
-      "rows": [
-        ["feather", "jelly", "shelter"],
-        ["melon", "pebble", "echo"],
-        ["pretend", "freckle", "better"],
-        ["velvet", "sweater", "tender"],
-        ["ember", "sentence", "contest"]
-      ]
+      "table": {
+        "rows": [
+          ["feather", "jelly", "shelter"],
+          ["melon", "pebble", "echo"],
+          ["pretend", "freckle", "better"],
+          ["velvet", "sweater", "tender"],
+          ["ember", "sentence", "contest"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Long e",
       "headingTag": "h3",
-      "rows": [
-        ["beneath", "increase", "repeat"],
-        ["season", "eager", "concrete"],
-        ["exceed", "proceed", "agreement"],
-        ["achievement", "feature", "decrease"],
-        ["referee", "complete", "squeaky"]
-      ]
+      "table": {
+        "rows": [
+          ["beneath", "increase", "repeat"],
+          ["season", "eager", "concrete"],
+          ["exceed", "proceed", "agreement"],
+          ["achievement", "feature", "decrease"],
+          ["referee", "complete", "squeaky"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Short i",
       "headingTag": "h3",
-      "rows": [
-        ["chicken", "picnic", "village"],
-        ["mitten", "kitten", "finish"],
-        ["rigid", "timid", "cricket"],
-        ["visit", "witness", "winter"],
-        ["vivid", "spirit", "habit"]
-      ]
+      "table": {
+        "rows": [
+          ["chicken", "picnic", "village"],
+          ["mitten", "kitten", "finish"],
+          ["rigid", "timid", "cricket"],
+          ["visit", "witness", "winter"],
+          ["vivid", "spirit", "habit"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Long i",
       "headingTag": "h3",
-      "rows": [
-        ["arrive", "surprise", "twilight"],
-        ["delight", "invite", "bicycle"],
-        ["describe", "remind", "define"],
-        ["combine", "advise", "decide"],
-        ["recite", "apply", "survive"]
-      ]
+      "table": {
+        "rows": [
+          ["arrive", "surprise", "twilight"],
+          ["delight", "invite", "bicycle"],
+          ["describe", "remind", "define"],
+          ["combine", "advise", "decide"],
+          ["recite", "apply", "survive"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Short o",
       "headingTag": "h3",
-      "rows": [
-        ["octopus", "topic", "problem"],
-        ["rocket", "monster", "pocket"],
-        ["tropical", "hobby", "honest"],
-        ["object", "solid", "profit"],
-        ["comic", "gossip", "closet"]
-      ]
+      "table": {
+        "rows": [
+          ["octopus", "topic", "problem"],
+          ["rocket", "monster", "pocket"],
+          ["tropical", "hobby", "honest"],
+          ["object", "solid", "profit"],
+          ["comic", "gossip", "closet"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Long o",
       "headingTag": "h3",
-      "rows": [
-        ["coast", "explode", "oatmeal"],
-        ["remote", "shadow", "alone"],
-        ["suppose", "decode", "compose"],
-        ["propose", "telephone", "approach"],
-        ["provoke", "podium", "motion"]
-      ]
+      "table": {
+        "rows": [
+          ["coast", "explode", "oatmeal"],
+          ["remote", "shadow", "alone"],
+          ["suppose", "decode", "compose"],
+          ["propose", "telephone", "approach"],
+          ["provoke", "podium", "motion"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Short u",
       "headingTag": "h3",
-      "rows": [
-        ["butter", "jungle", "puppet"],
-        ["tunnel", "summer", "luggage"],
-        ["bucket", "subject", "customs"],
-        ["pumpkin", "rubber", "dozen"],
-        ["suffer", "submit", "puzzle"]
-      ]
+      "table": {
+        "rows": [
+          ["butter", "jungle", "puppet"],
+          ["tunnel", "summer", "luggage"],
+          ["bucket", "subject", "customs"],
+          ["pumpkin", "rubber", "dozen"],
+          ["suffer", "submit", "puzzle"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Words with Long u",
       "headingTag": "h3",
-      "rows": [
-        ["confuse", "rescue", "salute"],
-        ["universe", "include", "compute"],
-        ["costume", "conclude", "avenue"],
-        ["attitude", "absolute", "consume"],
-        ["continue", "value", "dispute"]
-      ]
+      "table": {
+        "rows": [
+          ["confuse", "rescue", "salute"],
+          ["universe", "include", "compute"],
+          ["costume", "conclude", "avenue"],
+          ["attitude", "absolute", "consume"],
+          ["continue", "value", "dispute"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Compound Words",
       "headingTag": "h3",
-      "text": "Compound words are formed by combining two smaller words to create a new meaning. Learning compound words helps improve vocabulary and spelling skills.",
-      "rows": [
-        ["sunflower", "notebook", "football"],
-        ["classroom", "playground", "toothbrush"],
-        ["rainbow", "snowman", "lighthouse"],
-        ["butterfly", "firefighter", "airport"],
-        ["cupcake", "earthquake", "handshake"]
-      ]
+      "text": "Compound words are made by joining two smaller words to form a new meaning. Learning them helps students build vocabulary and improve spelling.",
+      "table": {
+        "rows": [
+          ["sunflower", "notebook", "football"],
+          ["classroom", "playground", "toothbrush"],
+          ["rainbow", "snowman", "lighthouse"],
+          ["butterfly", "firefighter", "airport"],
+          ["cupcake", "earthquake", "handshake"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Dolch Sight Words for 3rd Grade",
-      "text": "Dolch sight words help 3rd graders improve reading fluency and spelling skills. These high-frequency words are essential for building a strong literacy foundation.",
-      "rows": [
-        ["always", "around", "because"],
-        ["been", "before", "found"],
-        ["goes", "green", "its"],
-        ["light", "made", "many"],
-        ["much", "myself", "never"],
-        ["seven", "shall", "show"],
-        ["six", "together", "today"]
-      ]
+      "text": "Dolch sight words are common words that 3rd graders see often. Knowing these words helps them read faster and spell better, creating a strong foundation for learning.",
+      "table": {
+        "rows": [
+          ["always", "around", "because"],
+          ["been", "before", "found"],
+          ["goes", "green", "its"],
+          ["light", "made", "many"],
+          ["much", "myself", "never"],
+          ["seven", "shall", "show"],
+          ["six", "together", "today"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Common Homophones",
-      "text": "Homophones are words that sound the same but have different meanings and spellings. Learning to distinguish them helps improve reading comprehension and writing accuracy.",
-      "rows": [
-        ["their, there, they’re"],
-        ["to, too, two"],
-        ["right, write, rite"],
-        ["your, you’re, yore"],
-        ["peace, piece"],
-        ["whole, hole"],
-        ["flower, flour"],
-        ["bare, bear, bair"],
-        ["one, won"],
-        ["steel, steal, stile"],
-        ["pail, pale"],
-        ["sail, sale"],
-        ["waist, waste"],
-        ["knight, night, nite"],
-        ["knot, not, naught"],
-        ["know, no"],
-        ["meet, meat, mete"]
-      ]
+      "text": "Homophones are words that are sound alike but have different meanings and spellings. ",
+      "table": {
+        "rows": [
+          ["their, there, they’re"],
+          ["to, too, two"],
+          ["right, write, rite"],
+          ["your, you’re, yore"],
+          ["peace, piece"],
+          ["whole, hole"],
+          ["flower, flour"],
+          ["bare, bear, bair"],
+          ["one, won"],
+          ["steel, steal, stile"],
+          ["pail, pale"],
+          ["sail, sale"],
+          ["waist, waste"],
+          ["knight, night, nite"],
+          ["knot, not, naught"],
+          ["know, no"],
+          ["meet, meat, mete"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Common Homonyms",
-      "text": "Homonyms are words that sound the same or are spelled the same but have different meanings. Understanding homonyms helps students avoid confusion in reading and writing.",
-      "rows": [
-        ["bat (an animal), bat (a baseball bat)"],
-        ["bank (a financial institution), bank (the side of a river)"],
-        ["row (a line of things), row (to paddle a boat)"],
-        ["well (a water source), well (in a good way)"],
-        ["current (happening now), current (a flow of water or electricity)"]
-      ]
+      "text": "Homonyms are words that are spelled the same but have different meanings.",
+      "table": {
+        "rows": [
+          ["bat (an animal), bat (a baseball bat)"],
+          ["bank (a financial institution), bank (the side of a river)"],
+          ["row (a line of things), row (to paddle a boat)"],
+          ["well (a water source), well (in a good way)"],
+          ["current (happening now), current (a flow of water or electricity)"]
+        ]
+      }
     },
     {
-      "type": "table",
       "heading": "Common Heteronyms",
-      "text": "Heteronyms are words that are spelled the same but have different pronunciations and meanings. Learning heteronyms helps students improve reading fluency and comprehension.",
-      "rows": [
-        ["lead (to guide), lead (a type of metal)"],
-        ["tear (to rip), tear (a drop of water from the eye)"],
-        ["wind (moving air), wind (to twist or turn)"],
-        [
-          "record (to store information), record (a physical album or achievement)"
-        ],
-        ["desert (a dry area), desert (to abandon)"],
-        ["dove (a bird), dove (past tense of dive)"],
-        ["present (a gift), present (to show or introduce)"]
-      ]
+      "text": "Heteronyms are words that are spelled the same but have different pronunciations and meanings.",
+      "table": {
+        "rows": [
+          ["lead (to guide), lead (a type of metal)"],
+          ["tear (to rip), tear (a drop of water from the eye)"],
+          ["wind (moving air), wind (to twist or turn)"],
+          [
+            "record (to store information), record (a physical album or achievement)"
+          ],
+          ["desert (a dry area), desert (to abandon)"],
+          ["dove (a bird), dove (past tense of dive)"],
+          ["present (a gift), present (to show or introduce)"]
+        ]
+      }
     },
     {
-      "type": "section",
       "heading": "Grade Level Expectations for 3rd Grade Spellers",
-      "text": [
-        "Spelling expectations vary by grade level, with 3rd graders transitioning from basic phonetic spelling to more complex patterns. At this stage, students should recognize and correctly spell a variety of words, including high-frequency sight words, words with prefixes and suffixes, and words that follow specific phonics rules.",
-        "As part of their spelling curriculum, 3rd graders will engage in structured spelling lessons, weekly spelling lists, and practice activities designed to strengthen their spelling skills and overall literacy development.",
-        "By the time students reach 3rd grade, they are expected to have a solid foundation in basic spelling and word recognition. This year serves as a transition period where they advance from simple phonetic spellings to more complex words that follow specific spelling rules."
+      "paragraphs": [
+        "Spelling skills grow with each grade level. In 3rd grade, students move beyond basic spelling and start learning more complex word patterns. They practice spelling sight words, words with prefixes and suffixes, and words that follow phonics rules.",
+        "As part of their lessons, 3rd graders work with weekly spelling lists, structured exercises, and fun practice activities. These help strengthen their spelling and improve reading and writing skills.",
+        "By 3rd grade, students have a solid grasp of basic spelling. This year helps them move from simple words to more advanced spelling patterns that follow specific rules."
       ]
     },
     {
-      "type": "list",
       "heading": "Key Spelling Milestones for 3rd Graders",
-      "items": [
-        "📖 **Mastery of High-Frequency Words** – Students should be able to spell common sight words correctly, as they form the basis of everyday writing and reading.",
-        "🔤 **Understanding Spelling Rules** – Third graders begin learning common spelling patterns, such as silent letters, consonant blends, and vowel teams (e.g., 'ai' in rain, 'ee' in tree).",
-        "📝 **Application of Suffixes & Prefixes** – They should be able to recognize and correctly use common affixes, such as un- (unhappy), pre- (preheat), -tion (action), and -able (enjoyable).",
-        "🔄 **Recognizing Homophones** – Words that sound alike but have different meanings and spellings (e.g., there, their, they’re) can be challenging, but students are expected to distinguish them correctly.",
-        "✍️ **Using Spelling in Writing** – Rather than just memorizing words for tests, students should apply correct spelling in their writing assignments, reinforcing what they’ve learned.",
-        "📚 **Dictionary & Phonetic Strategies** – When encountering unfamiliar words, students should use phonetic clues, break down words into syllables, or use dictionaries and digital tools for spelling support."
+      "list": [
+        "**🔤 Understanding Spelling Rules** – Third graders learn common spelling patterns, like silent letters, consonant blends, and vowel teams (e.g., 'ai' in rain, 'ee' in tree).",
+        "**📝 Using Prefixes & Suffixes** – They should recognize and use prefixes like un- (unhappy) and pre- (preheat), and suffixes like -tion (action) and -able (enjoyable).",
+        "**🔄 Recognizing Homophones** – Words that sound alike but have different meanings and spellings (e.g., there, their, they’re) can be tricky, but students should learn to tell them apart.",
+        "**✍️ Applying Spelling in Writing** – Instead of just memorizing words for tests, students should use correct spelling in their writing to reinforce what they’ve learned.",
+        "**📚 Using Dictionaries & Phonics** – When spelling new words, students can break them into syllables, use phonics clues, or check a dictionary or digital tools for help."
       ]
     },
     {
-      "type": "list",
       "heading": "Make spelling fun for 3rd graders",
       "text": "Spelling practice doesn't have to be boring! Here are some creative ways to make spelling fun for 3rd graders:",
-      "items": [
+      "list": [
         "📚 Spelling Bees – Competitive yet educational.",
         "🔍 Word Search & Crossword Puzzles – Helps recognize patterns and recall words.",
         "🃏 Flashcards & Memory Games – Reinforce visual memory.",
@@ -266,9 +276,8 @@
       ]
     },
     {
-      "type": "faq",
       "heading": "❓ Frequently Asked Questions (FAQs)",
-      "items": [
+      "faq": [
         {
           "question": "How many words should a 3rd grader know how to spell?",
           "answer": "A typical 3rd-grade spelling curriculum includes 300–500 words, covering high-frequency words and phonics-based lists."

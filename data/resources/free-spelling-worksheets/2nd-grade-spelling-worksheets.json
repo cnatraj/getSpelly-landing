@@ -18,9 +18,8 @@
       "text": "Learning to spell in 2nd grade is a crucial milestone! These printable spelling worksheets help second graders build vocabulary, improve reading skills, and gain confidence in their spelling abilities."
     },
     {
-      "type": "list",
       "heading": "📌 Why Practice Spelling in 2nd Grade?",
-      "items": [
+      "list": [
         "Enhances reading fluency – Recognizing and spelling words improves reading speed.",
         "Builds a strong vocabulary – Learning new words improves comprehension.",
         "Boosts confidence – Mastering spelling gives kids a sense of achievement.",
@@ -32,48 +31,48 @@
       }
     },
     {
-      "type": "table",
       "heading": "📥 Download Free 2nd Grade Spelling Worksheets",
       "text": "These free printable spelling worksheets will help your 2nd grader develop essential spelling skills. Download and print for home or school!",
-      "columns": ["Worksheet Name", "Description", "Download Link"],
-      "rows": [
-        [
-          "📖 2nd Grade Essential Words",
-          "A list of must-know spelling words for 2nd graders to build a strong vocabulary foundation.",
-          "[Download](/pdf/content/resources/2nd-grade-essential-words.pdf)"
-        ],
-        [
-          "👀 2nd Grade Sight Words",
-          "High-frequency sight words that improve reading fluency and spelling skills.",
-          "[Download](/pdf/content/resources/2nd-grade-sight-words.pdf)"
-        ],
-        [
-          "🏆 2nd Grade Spelling Bee Words",
-          "A collection of commonly used words in spelling bee competitions to boost confidence.",
-          "[Download](/pdf/content/resources/2nd-grade-spelling-bee-words.pdf)"
-        ],
-        [
-          "✅ 2nd Grade Spelling Challenge",
-          "A multiple-choice worksheet where kids must identify the correct spelling from different options.",
-          "[Download](/pdf/content/resources/2nd-grade-spelling-challenge.pdf)"
-        ],
-        [
-          "🔠 2nd Grade Jumbled Words",
-          "A fun spelling activity where kids unscramble letters to find the correct word.",
-          "[Download](/pdf/content/resources/2nd-grade-jumbled-words.pdf)"
-        ],
-        [
-          "📅 2nd Grade Weekly Spelling Lists",
-          "A structured week-by-week spelling program for consistent learning and assessment.",
-          "[Download](/pdf/content/resources/2nd-grade-weekly-spelling-lists.pdf)"
+      "table": {
+        "columns": ["Worksheet Name", "Description", "Download Link"],
+        "rows": [
+          [
+            "📖 2nd Grade Essential Words",
+            "A list of must-know spelling words for 2nd graders to build a strong vocabulary foundation.",
+            "[Download](/pdf/content/resources/2nd-grade-essential-words.pdf)"
+          ],
+          [
+            "👀 2nd Grade Sight Words",
+            "High-frequency sight words that improve reading fluency and spelling skills.",
+            "[Download](/pdf/content/resources/2nd-grade-sight-words.pdf)"
+          ],
+          [
+            "🏆 2nd Grade Spelling Bee Words",
+            "A collection of commonly used words in spelling bee competitions to boost confidence.",
+            "[Download](/pdf/content/resources/2nd-grade-spelling-bee-words.pdf)"
+          ],
+          [
+            "✅ 2nd Grade Spelling Challenge",
+            "A multiple-choice worksheet where kids must identify the correct spelling from different options.",
+            "[Download](/pdf/content/resources/2nd-grade-spelling-challenge.pdf)"
+          ],
+          [
+            "🔠 2nd Grade Jumbled Words",
+            "A fun spelling activity where kids unscramble letters to find the correct word.",
+            "[Download](/pdf/content/resources/2nd-grade-jumbled-words.pdf)"
+          ],
+          [
+            "📅 2nd Grade Weekly Spelling Lists",
+            "A structured week-by-week spelling program for consistent learning and assessment.",
+            "[Download](/pdf/content/resources/2nd-grade-weekly-spelling-lists.pdf)"
+          ]
         ]
-      ]
+      }
     },
     {
-      "type": "list",
       "heading": "🏆 Fun & Engaging Spelling Activities",
       "text": "Make spelling fun with these engaging activities:",
-      "items": [
+      "list": [
         "Spelling Bingo – Match words to pictures for quick recognition.",
         "Word Search – Find spelling words hidden in a fun puzzle.",
         "Jumbled Letters – Unscramble words to test spelling skills.",
@@ -85,9 +84,8 @@
       }
     },
     {
-      "type": "faq",
       "heading": "❓ Frequently Asked Questions (FAQs)",
-      "items": [
+      "faq": [
         {
           "question": "What words should a 2nd grader know how to spell?",
           "answer": "A 2nd grader should practice sight words, vocabulary words, and common spelling words like 'because,' 'favorite,' 'school,' and 'friend.'"
@@ -103,10 +101,9 @@
       ]
     },
     {
-      "type": "list",
       "heading": "📚 Explore More Spelling Worksheets",
       "text": "Looking for spelling worksheets for other grades? Check out these resources:",
-      "items": [
+      "list": [
         "[1st Grade Spelling Worksheets](/resources/free-spelling-worksheets/1st-grade-spelling-worksheets)",
         "**2nd Grade Spelling Worksheets (You are here!)**",
         "[3rd Grade Spelling Worksheets](/resources/free-spelling-worksheets/3rd-grade-spelling-worksheets)",

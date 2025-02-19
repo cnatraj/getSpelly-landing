@@ -37,59 +37,33 @@
         {{ section.heading }}
       </h2>
 
-      <div v-if="section.text" class="mt-4">
-        <template v-if="Array.isArray(section.text)">
-          <p
-            v-for="(text, i) in section.text"
-            v-html="parseMarkdown(text)"
-            class="mb-2"
-          ></p>
-        </template>
-        <template v-else>
-          <p v-html="parseMarkdown(section.text)"></p>
-        </template>
-      </div>
-      <!-- <div
+      <div
         class="mt-4"
         v-if="section.text"
         v-html="parseMarkdown(section.text)"
-      ></div> -->
+      ></div>
+
+      <!-- Multi paragraph section-->
+
+      <Paragraphs
+        v-if="section.paragraphs"
+        :paragraphs="section.paragraphs"
+      ></Paragraphs>
 
       <!-- List Items -->
-      <v-list v-if="section.type === 'list'">
-        <v-list-item v-for="(item, i) in section.items" :key="i">
-          <div v-html="parseMarkdown(item)"></div>
-        </v-list-item>
-      </v-list>
+      <Lists v-if="section.list" :items="section.list"></Lists>
 
       <!-- CTA Section -->
-      <div v-if="section.type === 'cta'" class="mt-4 text-center">
+      <!-- <div v-if="section.type === 'cta'" class="mt-4 text-center">
         <div>
           <v-btn color="secondary elevatedButton" :to="section.cta_button.link">
             {{ section.cta_button.text }}
           </v-btn>
         </div>
-      </div>
+      </div> -->
 
       <!-- Table Section -->
-      <v-table class="mt-4 text-body-1" v-if="section.type === 'table'">
-        <thead class="bg-section3" v-if="section.columns">
-          <tr>
-            <th v-for="col in section.columns" :key="col">
-              {{ col }}
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="(row, i) in section.rows" :key="i">
-            <td
-              v-for="(cell, j) in row"
-              :key="j"
-              v-html="parseMarkdown(cell)"
-            ></td>
-          </tr>
-        </tbody>
-      </v-table>
+      <SectionTable v-if="section.table" :table="section.table"></SectionTable>
 
       <!-- Text Link-->
       <div v-if="section.link" class="mt-1 text-center">
@@ -99,16 +73,7 @@
       </div>
 
       <!-- FAQ Section-->
-
-      <v-expansion-panels v-if="section.type === 'faq'" class="mt-4 pb-4">
-        <v-expansion-panel
-          v-for="(faq, i) in section.items"
-          :key="i"
-          :title="faq.question"
-          :text="faq.answer"
-        >
-        </v-expansion-panel>
-      </v-expansion-panels>
+      <Faqs v-if="section.faq" :items="section.faq"></Faqs>
     </div>
   </section>
 
@@ -128,6 +93,10 @@ import { useRoute } from "vue-router";
 import { marked } from "marked"; // Import markdown parser
 import FooterCTA from "../components/FooterCTA.vue";
 import { useTheme } from "vuetify";
+import Paragraphs from "./sections/paragraphs.vue";
+import Lists from "./sections/lists.vue";
+import Faqs from "./sections/faqs.vue";
+import SectionTable from "./sections/sectionTable.vue";
 
 const theme = useTheme();
 const route = useRoute();

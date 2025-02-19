@@ -11,10 +11,9 @@
   },
   "content": [
     {
-      "type": "list",
       "heading": "📌 Why Use Printable Spelling Worksheets?",
       "className": "bg-white",
-      "items": [
+      "list": [
         "✅ **Grade-Level Practice:** Tailored worksheets help kids learn at the right pace.",
         "✅ **Interactive Learning:** Fun exercises like word searches, fill-in-the-blanks, and crossword puzzles.",
         "✅ **Spelling Bee Preparation:** Perfect for those looking to improve spelling accuracy.",
@@ -22,36 +21,27 @@
       ]
     },
     {
-      "type": "cta",
-      "className": "bg-section2",
-      "heading": "📥 Download Free Spelling Worksheets (PDF Format)",
-      "text": "Click on a grade level to download **free printable worksheets**.",
-      "cta_button": {
-        "text": "Download Worksheets",
-        "link": "/resources/free-spelling-worksheets#downloads"
-      }
-    },
-    {
-      "type": "table",
       "heading": "🔹 Printable worksheets by grade",
-      "columns": ["Grade Level"],
-      "rows": [
-        [
-          "[1st Grade Spelling Worksheets](free-spelling-worksheets/1st-grade-spelling-worksheets)"
-        ],
-        [
-          "[2nd Grade Spelling Worksheets](free-spelling-worksheets/2nd-grade-spelling-worksheets)"
-        ],
-        [
-          "[3rd Grade Spelling Worksheets](free-spelling-worksheets/3rd-grade-spelling-worksheets)"
-        ],
-        [
-          "[4th Grade Spelling Worksheets](free-spelling-worksheets/4th-grade-spelling-worksheets)"
-        ],
-        [
-          "[5th Grade Spelling Worksheets](free-spelling-worksheets/5th-grade-spelling-worksheets)"
+      "table": {
+        "columns": ["Grade Level"],
+        "rows": [
+          [
+            "[1st Grade Spelling Worksheets](free-spelling-worksheets/1st-grade-spelling-worksheets)"
+          ],
+          [
+            "[2nd Grade Spelling Worksheets](free-spelling-worksheets/2nd-grade-spelling-worksheets)"
+          ],
+          [
+            "[3rd Grade Spelling Worksheets](free-spelling-worksheets/3rd-grade-spelling-worksheets)"
+          ],
+          [
+            "[4th Grade Spelling Worksheets](free-spelling-worksheets/4th-grade-spelling-worksheets)"
+          ],
+          [
+            "[5th Grade Spelling Worksheets](free-spelling-worksheets/5th-grade-spelling-worksheets)"
+          ]
         ]
-      ]
+      }
     },
     {
       "type": "section",
@@ -63,10 +53,9 @@
       }
     },
     {
-      "type": "list",
       "heading": "🎲 Fun & Interactive Spelling Activities",
       "text": "Spelling practice doesn’t have to be boring! Try these **engaging spelling activities** that work alongside printable worksheets:",
-      "items": [
+      "list": [
         "**Word Searches & Crossword Puzzles**",
         "**Scrambled Word Challenges**",
         "**Spelling Bingo Games**",
@@ -96,9 +85,8 @@
       }
     },
     {
-      "type": "faq",
       "heading": "❓ Frequently Asked Questions (FAQs)",
-      "items": [
+      "faq": [
         {
           "question": "What grade levels are these spelling worksheets for?",
           "answer": "We provide spelling worksheets for **Kindergarten to 5th Grade**, covering essential spelling words and practice exercises."
