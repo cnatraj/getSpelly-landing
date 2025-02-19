@@ -155,6 +155,19 @@
     },
     {
       "type": "table",
+      "heading": "Compound Words",
+      "headingTag": "h3",
+      "text": "Compound words are formed by combining two smaller words to create a new meaning. Learning compound words helps improve vocabulary and spelling skills.",
+      "rows": [
+        ["sunflower", "notebook", "football"],
+        ["classroom", "playground", "toothbrush"],
+        ["rainbow", "snowman", "lighthouse"],
+        ["butterfly", "firefighter", "airport"],
+        ["cupcake", "earthquake", "handshake"]
+      ]
+    },
+    {
+      "type": "table",
       "heading": "Dolch Sight Words for 3rd Grade",
       "text": "Dolch sight words help 3rd graders improve reading fluency and spelling skills. These high-frequency words are essential for building a strong literacy foundation.",
       "rows": [
@@ -217,6 +230,27 @@
         ["desert (a dry area), desert (to abandon)"],
         ["dove (a bird), dove (past tense of dive)"],
         ["present (a gift), present (to show or introduce)"]
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Grade Level Expectations for 3rd Grade Spellers",
+      "text": [
+        "Spelling expectations vary by grade level, with 3rd graders transitioning from basic phonetic spelling to more complex patterns. At this stage, students should recognize and correctly spell a variety of words, including high-frequency sight words, words with prefixes and suffixes, and words that follow specific phonics rules.",
+        "As part of their spelling curriculum, 3rd graders will engage in structured spelling lessons, weekly spelling lists, and practice activities designed to strengthen their spelling skills and overall literacy development.",
+        "By the time students reach 3rd grade, they are expected to have a solid foundation in basic spelling and word recognition. This year serves as a transition period where they advance from simple phonetic spellings to more complex words that follow specific spelling rules."
+      ]
+    },
+    {
+      "type": "list",
+      "heading": "Key Spelling Milestones for 3rd Graders",
+      "items": [
+        "📖 **Mastery of High-Frequency Words** – Students should be able to spell common sight words correctly, as they form the basis of everyday writing and reading.",
+        "🔤 **Understanding Spelling Rules** – Third graders begin learning common spelling patterns, such as silent letters, consonant blends, and vowel teams (e.g., 'ai' in rain, 'ee' in tree).",
+        "📝 **Application of Suffixes & Prefixes** – They should be able to recognize and correctly use common affixes, such as un- (unhappy), pre- (preheat), -tion (action), and -able (enjoyable).",
+        "🔄 **Recognizing Homophones** – Words that sound alike but have different meanings and spellings (e.g., there, their, they’re) can be challenging, but students are expected to distinguish them correctly.",
+        "✍️ **Using Spelling in Writing** – Rather than just memorizing words for tests, students should apply correct spelling in their writing assignments, reinforcing what they’ve learned.",
+        "📚 **Dictionary & Phonetic Strategies** – When encountering unfamiliar words, students should use phonetic clues, break down words into syllables, or use dictionaries and digital tools for spelling support."
       ]
     },
     {

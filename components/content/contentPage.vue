@@ -37,11 +37,23 @@
         {{ section.heading }}
       </h2>
 
-      <div
+      <div v-if="section.text" class="mt-4">
+        <template v-if="Array.isArray(section.text)">
+          <p
+            v-for="(text, i) in section.text"
+            v-html="parseMarkdown(text)"
+            class="mb-2"
+          ></p>
+        </template>
+        <template v-else>
+          <p v-html="parseMarkdown(section.text)"></p>
+        </template>
+      </div>
+      <!-- <div
         class="mt-4"
         v-if="section.text"
         v-html="parseMarkdown(section.text)"
-      ></div>
+      ></div> -->
 
       <!-- List Items -->
       <v-list v-if="section.type === 'list'">
