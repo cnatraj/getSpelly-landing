@@ -44,11 +44,11 @@
       "table": {
         "columns": ["Grade-Based Spelling Lists (1st to 5th Grade)"],
         "rows": [
-          ["[1st Grade Spelling Words](/resources/spelling-lists/1st-grade-spelling-words)"],
-          ["[2nd Grade Spelling Words](/resources/spelling-lists/2nd-grade-spelling-words)"],
-          ["[3rd Grade Spelling Words](/resources/spelling-lists/3rd-grade-spelling-words)"],
-          ["[4th Grade Spelling Words](/resources/spelling-lists/4th-grade-spelling-words)"],
-          ["[5th Grade Spelling Words](/resources/spelling-lists/5th-grade-spelling-words)"]
+          ["[1st Grade Spelling Words](spelling-lists/1st-grade-spelling-words)"],
+          ["[2nd Grade Spelling Words](spelling-lists/2nd-grade-spelling-words)"],
+          ["[3rd Grade Spelling Words](spelling-lists/3rd-grade-spelling-words)"],
+          ["[4th Grade Spelling Words](spelling-lists/4th-grade-spelling-words)"],
+          ["[5th Grade Spelling Words](spelling-lists/5th-grade-spelling-words)"]
         ]
       }
     },
