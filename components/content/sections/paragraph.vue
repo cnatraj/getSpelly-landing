@@ -1,8 +1,6 @@
 <template>
-  <div class="pt-10">
-    <h2 class="text-h3">
-      {{ props.text }}
-    </h2>
+  <div class="mt-4">
+    <div class="mb-2" v-html="useParseMarkdown(paragraph)"></div>
   </div>
 </template>
 
@@ -10,6 +8,6 @@
   import { useParseMarkdown } from '../../../composables/useParseMarkdown'
 
   const props = defineProps({
-    text: String
+    paragraph: String
   })
 </script>

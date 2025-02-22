@@ -13,25 +13,32 @@
   },
   "content": [
     {
-      "type": "section",
-      "heading": "📖 Master Spelling with These Fun & Free 1st Grade Spelling Worksheets!",
-      "text": "Each worksheet is carefully crafted to cover a range of age-appropriate spelling words. With fun exercises, practice pages, and colorful visuals, these worksheets are designed to keep your child engaged while learning vital spelling concepts Learning to spell in 1st grade is a crucial milestone! These printable spelling worksheets help first graders build vocabulary, improve reading skills, and gain confidence in their spelling abilities."
+      "h2": "📖 Master Spelling with These Fun & Free 1st Grade Spelling Worksheets!"
     },
     {
-      "heading": "📌 Why Practice Spelling in 1st Grade?",
+      "paragraph": "Each worksheet is carefully crafted to cover a range of age-appropriate spelling words. With fun exercises, practice pages, and colorful visuals, these worksheets are designed to keep your child engaged while learning vital spelling concepts. Learning to spell in 1st grade is a crucial milestone! These printable spelling worksheets help first graders build vocabulary, improve reading skills, and gain confidence in their spelling abilities."
+    },
+    {
+      "h2": "📌 Why Practice Spelling in 1st Grade?"
+    },
+    {
       "list": [
         "Early reading development – Learning to spell improves reading fluency.",
         "Builds strong vocabulary – Helps kids recognize and use new words.",
         "Boosts confidence – Mastering spelling gives kids a sense of achievement.",
         "Interactive learning – Spelling games and activities make practice fun!"
-      ],
-      "link": {
+      ]
+    },
+    {
+      "button": {
         "text": "Try interactive spelling challenges with Spelly!",
         "url": "/?utm_source=1stGradePage&utm_medium=website&utm_campaign=spelling_resources"
       }
     },
     {
-      "heading": "📥 Download Free 1st Grade Spelling Worksheets",
+      "h2": "📥 Download Free 1st Grade Spelling Worksheets"
+    },
+    {
       "table": {
         "columns": ["Worksheet Name", "Description", "Download Link"],
         "rows": [
@@ -69,34 +76,46 @@
       }
     },
     {
-      "heading": "🏆 Fun & Engaging Spelling Activities",
-      "text": "Make spelling fun with these engaging activities:",
+      "h2": "🏆 Fun & Engaging Spelling Activities"
+    },
+    {
+      "paragraph": "Make spelling fun with these engaging activities:"
+    },
+    {
       "list": [
         "Spelling Bingo – Match words to pictures for quick recognition.",
         "Word Search – Find spelling words hidden in a fun puzzle.",
         "Jumbled Letters – Unscramble words to test spelling skills.",
         "Missing Letters Game – Fill in the missing letters to complete words."
-      ],
-      "link": {
+      ]
+    },
+    {
+      "button": {
         "text": "Explore interactive spelling games with Spelly!",
         "url": "/?utm_source=1stGradePage&utm_medium=website&utm_campaign=spelling_resources"
       }
     },
     {
-      "heading": "📖 How to Improve Spelling Skills in 1st Grade",
+      "h2": "📖 How to Improve Spelling Skills in 1st Grade"
+    },
+    {
       "list": [
         "Practice daily – Use printable worksheets & spelling lists.",
         "Make it interactive – Use games & fun spelling challenges.",
         "Use repetition – Write, read, and say words aloud.",
         "Try digital learning – Apps like Spelly turn spelling into an adventure!"
-      ],
-      "link": {
+      ]
+    },
+    {
+      "button": {
         "text": "Discover more tips for improving spelling skills.",
         "url": "/guides/improve-spelling-skills"
       }
     },
     {
-      "heading": "❓ Frequently Asked Questions (FAQs)",
+      "h3": "❓ Frequently Asked Questions (FAQs)"
+    },
+    {
       "faq": [
         {
           "question": "What words should a 1st grader know how to spell?",
@@ -113,8 +132,12 @@
       ]
     },
     {
-      "heading": "📚 Explore More Spelling Worksheets",
-      "text": "Looking for spelling worksheets for other grades? Check out these resources:",
+      "h2": "📚 Explore More Spelling Worksheets"
+    },
+    {
+      "paragraph": "Looking for spelling worksheets for other grades? Check out these resources:"
+    },
+    {
       "list": [
         "**1st Grade Spelling Worksheets (You are here!)**",
         "[2nd Grade Spelling Worksheets](/resources/free-spelling-worksheets/2nd-grade-spelling-worksheets)",

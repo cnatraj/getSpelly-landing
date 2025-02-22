@@ -11,17 +11,20 @@
   },
   "content": [
     {
-      "heading": "📌 Why Use Printable Spelling Worksheets?",
-      "className": "bg-white",
+      "h2": "📌 Why Use Printable Spelling Worksheets?"
+    },
+    {
       "list": [
-        "✅ **Grade-Level Practice:** Tailored worksheets help kids learn at the right pace.",
-        "✅ **Interactive Learning:** Fun exercises like word searches, fill-in-the-blanks, and crossword puzzles.",
-        "✅ **Spelling Bee Preparation:** Perfect for those looking to improve spelling accuracy.",
-        "✅ **Printable & Free:** Easily download and print for classroom or home use."
+        "✅ Grade-Level Practice: Tailored worksheets help kids learn at the right pace.",
+        "✅ Interactive Learning: Fun exercises like word searches, fill-in-the-blanks, and crossword puzzles.",
+        "✅ Spelling Bee Preparation: Perfect for those looking to improve spelling accuracy.",
+        "✅ Printable & Free: Easily download and print for classroom or home use."
       ]
     },
     {
-      "heading": "🔹 Printable worksheets by grade",
+      "h2": "🔹 Printable worksheets by grade"
+    },
+    {
       "table": {
         "columns": ["Grade Level"],
         "rows": [
@@ -44,48 +47,72 @@
       }
     },
     {
-      "type": "section",
-      "heading": "🏆 Spelling Worksheets for Spelling Bee Practice",
-      "text": "Want to prepare for a **spelling bee competition**? Check out our **spelling bee practice worksheets** featuring **challenging word lists** and **interactive spelling tests**.",
-      "link": {
+      "h2": "🏆 Spelling Worksheets for Spelling Bee Practice"
+    },
+    {
+      "paragraph": "Want to prepare for a **spelling bee competition**? Check out our **spelling bee practice worksheets** featuring **challenging word lists** and **interactive spelling tests**."
+    },
+    {
+      "button": {
         "text": "Explore More: Spelling Bee Practice Guide",
         "url": "/guides/spelling-bee-practice"
       }
     },
     {
-      "heading": "🎲 Fun & Interactive Spelling Activities",
-      "text": "Spelling practice doesn’t have to be boring! Try these **engaging spelling activities** that work alongside printable worksheets:",
+      "h2": "🎲 Fun & Interactive Spelling Activities"
+    },
+    {
+      "paragraph": "Spelling practice doesn’t have to be boring! Try these **engaging spelling activities** that work alongside printable worksheets:"
+    },
+    {
       "list": [
         "**Word Searches & Crossword Puzzles**",
         "**Scrambled Word Challenges**",
         "**Spelling Bingo Games**",
         "**Fill-in-the-Blank Exercises**"
-      ],
-      "link": {
+      ]
+    },
+    {
+      "button": {
         "text": "Check out more fun spelling activities here",
         "url": "/guides/spelling-activities-for-kids"
       }
     },
     {
-      "type": "section",
-      "heading": "📖 How to Use Worksheets to Improve Spelling Skills",
-      "text": "To get the most out of spelling worksheets:\n\n🔹 **Set a Weekly Spelling List** – Focus on a new list each week.\n🔹 **Practice with Fun Games** – Combine worksheets with spelling games.\n🔹 **Test & Review** – Use worksheets for practice tests before real assessments.",
-      "link": {
+      "h2": "📖 How to Use Worksheets to Improve Spelling Skills"
+    },
+    {
+      "paragraph": "To get the most out of spelling worksheets:"
+    },
+    {
+      "list": [
+        "🔹Set a Weekly Spelling List** – Focus on a new list each week.",
+        "🔹 **Practice with Fun Games** – Combine worksheets with spelling games.",
+        "🔹 **Test & Review** – Use worksheets for practice tests before real assessments."
+      ]
+    },
+    {
+      "button": {
         "text": "Discover more tips here",
         "url": "/guides/improve-spelling-skills"
       }
     },
     {
-      "type": "section",
-      "heading": "📝 Spelling Worksheets by Grade Level",
-      "text": "Need spelling worksheets specific to **grade levels**? Our guides offer **customized spelling word lists** and **practice worksheets** for Kindergarten to 5th Grade.",
-      "link": {
+      "h2": "📝 Spelling Worksheets by Grade Level"
+    },
+    {
+      "paragraph": "Need spelling worksheets specific to **grade levels**? Our guides offer **customized spelling word lists** and **practice worksheets** for Kindergarten to 5th Grade."
+    },
+    {
+      "button": {
         "text": "Check them out here",
         "url": "/guides/grade-specific-spelling-lists"
       }
     },
     {
-      "heading": "❓ Frequently Asked Questions (FAQs)",
+      "h3": "❓ Frequently Asked Questions (FAQs)"
+    },
+    {
       "faq": [
         {
           "question": "What grade levels are these spelling worksheets for?",

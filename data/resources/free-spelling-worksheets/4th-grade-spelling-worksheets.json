@@ -10,8 +10,9 @@
   },
   "content": [
     {
-      "heading": "📌 Why Use 4th Grade Spelling Worksheets?",
-      "className": "bg-light-gray",
+      "h2": "📌 Why Use 4th Grade Spelling Worksheets?"
+    },
+    {
       "list": [
         "✅ **Grade-Specific Word Lists** – Tailored spelling words for 4th graders.",
         "✅ **Printable & Interactive** – Includes fill-in-the-blank exercises, word searches, and crossword puzzles.",
@@ -20,31 +21,9 @@
       ]
     },
     {
-      "heading": "📥 Download Free 4th Grade Spelling Worksheets (PDF Format)",
-      "text": "Click on a category below to download **free printable worksheets**.",
-      "table": {
-        "columns": ["Worksheet Type", "Download Link"],
-        "rows": [
-          ["Essential 4th Grade Spelling Words", "[Download PDF](#)"],
-          ["4th Grade Sight Words", "[Download PDF](#)"],
-          ["Spelling Bee Practice Words", "[Download PDF](#)"],
-          ["Weekly Spelling Lists", "[Download PDF](#)"]
-        ]
-      }
+      "h2": "📝 Printable Spelling Worksheets With Answers"
     },
     {
-      "heading": "🏆 Fun Spelling Games & Activities",
-      "text": "Spelling practice doesn’t have to be boring! Try these **engaging spelling activities** to reinforce learning. **For an interactive experience, [online spelling games](https://getspelly.com/?utm_source=4thGradeWorksheets&utm_medium=website&utm_campaign=spelling_resources) like Spelly turn spelling into an adventure.**",
-      "list": [
-        "🎲 **Word Searches & Crossword Puzzles** - Search for spelling words in a puzzle format.",
-        "🎯 **Scrambled Word Challenges** - Unscramble letters to find the correct spelling.",
-        "📖 **Spelling Bee Practice & Oral Spelling Tests** - [Online spelling games](https://getspelly.com/?utm_source=4thGradeWorksheets&utm_medium=website&utm_campaign=spelling_resources) like Spelly",
-        "💡 **Missing Letters Game** - Fill in the missing letters to complete each word.",
-        "🏁 **Spelling Race** – Kids race to spell words correctly in a fun competition."
-      ]
-    },
-    {
-      "heading": "📝 Printable Spelling Worksheets With Answers",
       "table": {
         "columns": ["Worksheet Type", "Description", "Download"],
         "rows": [
@@ -82,8 +61,27 @@
       }
     },
     {
-      "heading": "🚀 How to Improve 4th Grade Spelling Skills",
-      "text": "The key to better spelling is **consistent practice and engaging activities**! **Digital tools like [Spelly](https://getspelly.com/?utm_source=4thGradeWorksheets&utm_medium=website&utm_campaign=spelling_resources) make learning fun** with interactive word challenges.",
+      "h2": "🏆 Fun Spelling Games & Activities"
+    },
+    {
+      "paragraph": "Spelling practice doesn’t have to be boring! Try these **engaging spelling activities** to reinforce learning. **For an interactive experience, [online spelling games](https://getspelly.com/?utm_source=4thGradeWorksheets&utm_medium=website&utm_campaign=spelling_resources) like Spelly turn spelling into an adventure.**"
+    },
+    {
+      "list": [
+        "🎲 **Word Searches & Crossword Puzzles** - Search for spelling words in a puzzle format.",
+        "🎯 **Scrambled Word Challenges** - Unscramble letters to find the correct spelling.",
+        "📖 **Spelling Bee Practice & Oral Spelling Tests** - [Online spelling games](https://getspelly.com/?utm_source=4thGradeWorksheets&utm_medium=website&utm_campaign=spelling_resources) like Spelly",
+        "💡 **Missing Letters Game** - Fill in the missing letters to complete each word.",
+        "🏁 **Spelling Race** – Kids race to spell words correctly in a fun competition."
+      ]
+    },
+    {
+      "h2": "🚀 How to Improve 4th Grade Spelling Skills"
+    },
+    {
+      "paragraph": "The key to better spelling is **consistent practice and engaging activities**! **Digital tools like [Spelly](https://getspelly.com/?utm_source=4thGradeWorksheets&utm_medium=website&utm_campaign=spelling_resources) make learning fun** with interactive word challenges."
+    },
+    {
       "list": [
         "✔️ **Set a Weekly Spelling List** – Focus on a **new list each week**.",
         "✔️ **Use Spelling Games** – Combine worksheets with **interactive activities**.",
@@ -92,7 +90,9 @@
       ]
     },
     {
-      "heading": "❓ Frequently Asked Questions (FAQs)",
+      "h2": "❓ Frequently Asked Questions (FAQs)"
+    },
+    {
       "faq": [
         {
           "question": "What are common 4th grade spelling words?",
@@ -109,8 +109,12 @@
       ]
     },
     {
-      "heading": "📚 Explore More Spelling Worksheets",
-      "text": "Looking for spelling worksheets for other grades? Check out these resources:",
+      "h2": "📚 Explore More Spelling Worksheets"
+    },
+    {
+      "paragraph": "Looking for spelling worksheets for other grades? Check out these resources:"
+    },
+    {
       "list": [
         "[1st Grade Spelling Worksheets](/resources/free-spelling-worksheets/1st-grade-spelling-worksheets)",
         "[2nd Grade Spelling Worksheets](/resources/free-spelling-worksheets/2nd-grade-spelling-worksheets)",

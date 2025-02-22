@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4">
     <h3 class="text-h4">
-      {{ props.h3 }}
+      {{ props.text }}
     </h3>
   </div>
 </template>
@@ -10,6 +10,6 @@
   import { useParseMarkdown } from '../../../composables/useParseMarkdown'
 
   const props = defineProps({
-    h3: String
+    text: String
   })
 </script>

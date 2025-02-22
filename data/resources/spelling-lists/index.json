@@ -1,0 +1,120 @@
+{
+  "slug": "spelling-lists",
+  "title": "Spelling Lists: The Ultimate Guide for Learners of All Ages",
+  "image": "/images/content/resources/spelling-lists.webp",
+  "meta": {
+    "title": "Spelling Lists | Grade-Based & Themed Word Lists for Better Spelling",
+    "description": "Discover comprehensive spelling lists by grade, themed word lists, and spelling bee practice words. Access free printable worksheets and fun spelling games!",
+    "keywords": "spelling lists, spelling word lists, 1st grade spelling words, 2nd grade spelling words, 3rd grade spelling words, commonly misspelled words, spelling bee words, printable spelling lists, interactive spelling games",
+    "og_title": "Spelling Lists – Grade-Based & Themed Word Lists for All Ages",
+    "og_description": "Improve spelling skills with structured spelling lists for grades 1-5, themed lists, and spelling bee preparation. Explore printable worksheets and fun games!",
+    "og_image": "https://getspelly.com/images/content/resources/spelling-lists.webp"
+  },
+  "content": [
+    {
+      "h1": "Spelling Lists: The Ultimate Guide for Learners of All Ages"
+    },
+    {
+      "h2": "What Are Spelling Lists and Why Are They Important?"
+    },
+    {
+      "paragraph": "Spelling lists are structured collections of words designed to help learners develop spelling accuracy, improve vocabulary, and enhance writing skills."
+    },
+    {
+      "h3": "Why Use Spelling Lists?"
+    },
+    {
+      "list": [
+        "They reinforce phonics and word patterns.",
+        "They help students recognize common word structures.",
+        "They prepare students for tests, spelling bees, and daily communication."
+      ]
+    },
+    {
+      "callout": {
+        "type": "tip",
+        "title": "Commonly misspelled words",
+        "text": "Check out the most commonly misspelled words here: [Commonly Misspelled Words](word-lists/commonly-misspelled-words/top-50)"
+      }
+    },
+    {
+      "paragraph": "📌 Check out the most commonly misspelled words here: [Commonly Misspelled Words](word-lists/commonly-misspelled-words/top-50)"
+    },
+    {
+      "table": {
+        "columns": ["Grade-Based Spelling Lists (1st to 5th Grade)"],
+        "rows": [
+          ["[1st Grade Spelling Words](resources/spelling-lists/1st-grade-spelling-words)"],
+          ["[2nd Grade Spelling Words](resources/spelling-lists/2nd-grade-spelling-words)"],
+          ["[3rd Grade Spelling Words](resources/spelling-lists/3rd-grade-spelling-words)"],
+          ["[4th Grade Spelling Words](resources/spelling-lists/4th-grade-spelling-words)"],
+          ["[5th Grade Spelling Words](resources/spelling-lists/5th-grade-spelling-words)"]
+        ]
+      }
+    },
+    {
+      "table": {
+        "columns": ["Themed Spelling Lists for Better Learning"],
+        "rows": [
+          ["[Commonly Misspelled Words](word-lists/commonly-misspelled-words/top-50)"],
+          ["[Homophones](word-lists/commonly-misspelled-words/homophones)"],
+          ["[Silent Letters](word-lists/commonly-misspelled-words/silent-letters)"]
+        ]
+      }
+    },
+    {
+      "table": {
+        "columns": ["Spelling Lists for Spelling Bees"],
+        "rows": [
+          ["[Beginner Spelling Bee Practice](resources/spelling-bee-practice/beginner)"],
+          ["[Intermediate Spelling Bee Words](resources/spelling-bee-practice/intermediate)"],
+          ["[Advanced Spelling Bee Words](resources/spelling-bee-practice/advanced)"]
+        ]
+      }
+    },
+    {
+      "table": {
+        "columns": ["Printable Spelling Lists & Interactive Spelling Games"],
+        "rows": [
+          [
+            "[Printable Spelling Worksheets](resources/free-spelling-worksheets/1st-grade-spelling-worksheets)"
+          ],
+          ["[Interactive Spelling Games](games/spelling-games-for-kids/1st-grade)"],
+          ["[Advanced Spelling Bee Words](resources/spelling-bee-practice/advanced)"]
+        ]
+      }
+    },
+    {
+      "table": {
+        "columns": ["Best Techniques to Learn and Retain Spelling Words"],
+        "rows": [
+          ["[Multisensory Spelling Techniques](techniques/multisensory-spelling-techniques)"],
+          ["[Phonics and Spelling Rules](techniques/phonics-and-spelling/rules)"]
+        ]
+      }
+    },
+    {
+      "h2": "Frequently Asked Questions"
+    },
+    {
+      "faq": [
+        {
+          "question": "What is the best way to study a spelling list?",
+          "answer": "Using a mix of writing, reading, and interactive games is most effective."
+        },
+        {
+          "question": "How many words should a spelling list have per grade?",
+          "answer": "A weekly spelling list usually contains:\n- 10-15 words for 1st-2nd graders.\n- 15-20 words for 3rd-5th graders."
+        },
+        {
+          "question": "Are there free printable spelling lists available?",
+          "answer": "Yes! You can find free printable spelling lists here: [Printable Spelling Worksheets](resources/free-spelling-worksheets/1st-grade-spelling-worksheets)."
+        },
+        {
+          "question": "What are the most commonly misspelled words?",
+          "answer": "Words like separate, definitely, and friend often cause confusion. See more: [Commonly Misspelled Words](word-lists/commonly-misspelled-words/top-50)."
+        }
+      ]
+    }
+  ]
+}

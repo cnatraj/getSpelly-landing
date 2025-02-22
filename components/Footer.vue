@@ -38,29 +38,21 @@
       <v-col cols="12" sm="6">
         <div class="d-flex">
           <div class="footerContentLinks mr-4">
-            <div class="text-body-1 font-weight-bold text-medium-emphasis">
-              Guides
-            </div>
+            <div class="text-body-1 font-weight-bold text-medium-emphasis">Guides</div>
             <div
               class="text-subtitle-2 text-medium-emphasis text-secondary"
               v-for="(resource, i) in guides"
             >
-              <NuxtLink :to="resource.link" class="footerLink">{{
-                resource.text
-              }}</NuxtLink>
+              <NuxtLink :to="resource.link" class="footerLink">{{ resource.text }}</NuxtLink>
             </div>
           </div>
           <div class="footerContentLinks">
-            <div class="text-body-1 font-weight-bold text-medium-emphasis">
-              Resources
-            </div>
+            <div class="text-body-1 font-weight-bold text-medium-emphasis">Resources</div>
             <div
               class="text-subtitle-2 text-medium-emphasis text-secondary"
               v-for="(resource, i) in resources"
             >
-              <NuxtLink :to="resource.link" class="footerLink">{{
-                resource.text
-              }}</NuxtLink>
+              <NuxtLink :to="resource.link" class="footerLink">{{ resource.text }}</NuxtLink>
             </div>
           </div>
         </div>
@@ -71,59 +63,63 @@
 </template>
 
 <script setup>
-const logo = new URL("../assets/images/spellyLogo.png", import.meta.url).href;
+  const logo = new URL('../assets/images/spellyLogo.png', import.meta.url).href
 
-const footerLinks = [
-  {
-    link: "/spelling-games",
-    text: "Spelling Games",
-  },
-  {
-    link: "/spelling-test",
-    text: "Spelling Test",
-  },
-  {
-    link: "/spelling-games-for-kids",
-    text: "Spelling Games for Kids",
-  },
-  {
-    link: "/kids-spelling",
-    text: "Kids Spelling",
-  },
-  {
-    link: "/childrens-spelling-games",
-    text: "Children's spelling games",
-  },
-];
+  const footerLinks = [
+    {
+      link: '/spelling-games',
+      text: 'Spelling Games'
+    },
+    {
+      link: '/spelling-test',
+      text: 'Spelling Test'
+    },
+    {
+      link: '/spelling-games-for-kids',
+      text: 'Spelling Games for Kids'
+    },
+    {
+      link: '/kids-spelling',
+      text: 'Kids Spelling'
+    },
+    {
+      link: '/childrens-spelling-games',
+      text: "Children's spelling games"
+    }
+  ]
 
-const guides = [
-  {
-    link: "/guides/grade-specific-spelling-lists",
-    text: "Grade-Specific Spelling Lists",
-  },
-  {
-    link: "/guides/improve-spelling-skills",
-    text: "Improve Spelling Skills",
-  },
-  {
-    link: "/guides/spelling-activities-for-kids",
-    text: "Spelling Activities for Kids",
-  },
-  {
-    link: "/guides/spelling-bee-practice",
-    text: "Spelling Bee Practice",
-  },
-];
-const resources = [
-  {
-    link: "/resources/free-spelling-worksheets",
-    text: "Free Spelling Worksheets",
-  },
-];
+  const guides = [
+    {
+      link: '/guides/grade-specific-spelling-lists',
+      text: 'Grade-Specific Spelling Lists'
+    },
+    {
+      link: '/guides/improve-spelling-skills',
+      text: 'Improve Spelling Skills'
+    },
+    {
+      link: '/guides/spelling-activities-for-kids',
+      text: 'Spelling Activities for Kids'
+    },
+    {
+      link: '/guides/spelling-bee-practice',
+      text: 'Spelling Bee Practice'
+    }
+  ]
+  const resources = [
+    {
+      link: '/resources/free-spelling-worksheets',
+      text: 'Free Spelling Worksheets'
+    },
+    {
+      link: '/resources/spelling-lists',
+      text: 'Spelling Lists'
+    }
+  ]
 </script>
 
 <style scoped>
-.footerContentLinks {
-  max-width: 200px;
-}
+  .footerContentLinks {
+    max-width: 200px;
+  }
 </style>

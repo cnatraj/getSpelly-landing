@@ -9,20 +9,16 @@
     </thead>
     <tbody>
       <tr v-for="(row, i) in props.table.rows" :key="i">
-        <td
-          v-for="(cell, j) in row"
-          :key="j"
-          v-html="useParseMarkdown(cell)"
-        ></td>
+        <td v-for="(cell, j) in row" :key="j" v-html="useParseMarkdown(cell)"></td>
       </tr>
     </tbody>
   </v-table>
 </template>
 
 <script setup>
-import { useParseMarkdown } from "../../../composables/useParseMarkdown";
+  import { useParseMarkdown } from '../../../composables/useParseMarkdown'
 
-const props = defineProps({
-  table: Object,
-});
+  const props = defineProps({
+    table: Object
+  })
 </script>
