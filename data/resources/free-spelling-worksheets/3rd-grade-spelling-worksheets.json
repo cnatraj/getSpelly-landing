@@ -27,20 +27,7 @@
       ]
     },
     {
-      "h2": "Why 3rd Grade Spelling Worksheets Are Important"
-    },
-    {
-      "paragraph": "By 3rd grade, students are expanding their vocabulary and mastering more complex spelling rules. Worksheets provide structured practice that helps with:"
-    },
-    {
-      "list": [
-        "Word recognition and spelling accuracy.",
-        "Understanding phonics and common spelling patterns.",
-        "Boosting confidence in reading and writing skills."
-      ]
-    },
-    {
-      "paragraph": "📌 Learn more about phonics and spelling rules here: [Phonics and Spelling Rules](techniques/phonics-and-spelling/rules)"
+      "paragraph": "📌 Learn more about phonics and spelling rules here: [Phonics and Spelling Rules](/techniques/phonics-and-spelling/rules)"
     },
     {
       "h2": "Free Printable 3rd Grade Spelling Worksheets"
@@ -49,51 +36,45 @@
       "paragraph": "Spelling worksheets are a great way for kids to practice new words in an engaging way. Here are different types of printable worksheets available:"
     },
     {
-      "h3": "1. Fill-in-the-Blank Worksheets"
+      "table": {
+        "columns": ["Worksheet Type", "Description", "Download"],
+        "rows": [
+          [
+            "📖 3rd Grade Essential Words",
+            "A list of fundamental spelling words for 3rd graders to build vocabulary and spelling accuracy.",
+            "[Download](/pdf/content/resources/3rd-grade-essential-words.pdf)"
+          ],
+          [
+            "🔠 3rd Grade Jumbled Words",
+            "Unscramble the mixed-up letters to form the correct spelling of words.",
+            "[Download](/pdf/content/resources/3rd-grade-jumbled-words.pdf)"
+          ],
+          [
+            "👀 3rd Grade Sight Words",
+            "Practice key sight words commonly used in reading and writing.",
+            "[Download](/pdf/content/resources/3rd-grade-sight-words.pdf)"
+          ],
+          [
+            "🏆 3rd Grade Spelling Bee Words",
+            "A collection of challenging words to prepare for spelling bee competitions.",
+            "[Download](/pdf/content/resources/3rd-grade-spelling-bee-words.pdf)"
+          ],
+          [
+            "✅ 3rd Grade Spelling Challenge",
+            "Identify the correct spelling from three choices to improve accuracy.",
+            "[Download](/pdf/content/resources/3rd-grade-spelling-challenge.pdf)"
+          ],
+          [
+            "📅 3rd Grade Weekly Spelling Lists",
+            "A structured weekly spelling program to enhance learning through daily exercises.",
+            "[Download](/pdf/content/resources/3rd-grade-weekly-spelling-lists.pdf)"
+          ]
+        ]
+      }
     },
+
     {
-      "list": [
-        "Students complete missing letters in words.",
-        "Reinforces spelling patterns and phonics skills."
-      ]
-    },
-    {
-      "h3": "2. Word Search & Crossword Puzzles"
-    },
-    {
-      "list": [
-        "Fun and challenging way to recognize spelling words.",
-        "Improves memory and pattern recognition."
-      ]
-    },
-    {
-      "h3": "3. Sentence Completion Exercises"
-    },
-    {
-      "list": [
-        "Helps kids understand spelling words in context.",
-        "Strengthens reading comprehension."
-      ]
-    },
-    {
-      "paragraph": "🖨️ Download free worksheets here: [3rd Grade Spelling Worksheets](resources/free-spelling-worksheets/3rd-grade-spelling-worksheets)"
-    },
-    {
-      "h2": "3rd Grade Spelling Word List (With Worksheets)"
-    },
-    {
-      "paragraph": "A strong spelling foundation begins with consistent practice and repetition. Below are common spelling words for 3rd graders:"
-    },
-    {
-      "list": [
-        "High-Frequency Words: always, before, around, between, great.",
-        "Words with Silent Letters: know, write, wrong, knee, gnat.",
-        "Words with Blends & Digraphs: splash, stretch, throw, shift, shrink.",
-        "Tricky Spelling Words: enough, through, neighbor, cousin, answer."
-      ]
-    },
-    {
-      "paragraph": "📌 Full word list & practice sheets here: [3rd Grade Spelling Words](resources/spelling-lists/3rd-grade-spelling-words)"
+      "paragraph": "📌 Full word list & practice sheets here: [3rd Grade Spelling Words](/resources/spelling-lists/3rd-grade-spelling-words)"
     },
     {
       "h2": "Fun & Interactive Spelling Activities for 3rd Graders"
@@ -102,10 +83,10 @@
       "h3": "1. Play Spelling Games Online with Spelly"
     },
     {
-      "paragraph": "[Spelly](#) is an online browser-based spelling resource designed to help kids improve spelling in a fun way. With interactive games, word challenges, and engaging exercises, Spelly makes learning spelling feel like play rather than work."
+      "paragraph": "Spelly is an online browser-based spelling resource designed to help kids improve spelling in a fun way. With interactive games, word challenges, and engaging exercises, Spelly makes learning spelling feel like play rather than work."
     },
     {
-      "paragraph": "🔗 Try Spelly’s interactive games here: [Spelling Games for 3rd Grade](games/spelling-games-for-kids/3rd-grade)"
+      "paragraph": "🔗 Try Spelly’s interactive games here: [Spelling Games for 3rd Grade](/?utm_source=3rdGradeWorksheets&utm_medium=website&utm_campaign=worksheets)"
     },
     {
       "h3": "2. Spelling Bingo"
@@ -194,12 +175,6 @@
       ]
     },
     {
-      "callout": {
-        "type": "idea",
-        "text": "Try [online spelling games](/?utm_source=3rdGradeSpellingWorksheet&utm_medium=website&utm_campaign=free_spelling_worksheets) like Spelly to make learning fun."
-      }
-    },
-    {
       "h2": "Frequently Asked Questions"
     },
     {
@@ -233,7 +208,6 @@
     },
     {
       "list": [
-        "**1st Grade Spelling Worksheets (You are here!)**",
         "[1st Grade Spelling Worksheets](/resources/free-spelling-worksheets/1st-grade-spelling-worksheets)",
         "[2nd Grade Spelling Worksheets](/resources/free-spelling-worksheets/2nd-grade-spelling-worksheets)",
         "**3rd Grade Spelling Worksheets (You are here!)**",
