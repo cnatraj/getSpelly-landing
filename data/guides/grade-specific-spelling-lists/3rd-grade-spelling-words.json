@@ -13,13 +13,18 @@
   },
   "content": [
     {
-      "type": "section",
-      "heading": "Importance of Spelling Proficiency in 3rd Grade",
-      "text": "Third grade is an important time for learning to spell. At this stage, students move from simple sounds to more complex words. Good spelling skills help them read and write with confidence. Strong spelling also improves vocabulary, reading speed, and understanding. These skills build a strong foundation for future learning."
+      "h2": "Importance of Spelling Proficiency in 3rd Grade"
     },
     {
-      "heading": "Why is Spelling Important for 3rd Graders?",
-      "text": "Studies show that kids who struggle with spelling often find reading and writing harder. Poor spelling can make it tough to form sentences, understand texts, and do well in language arts. On the other hand, strong spelling skills help students succeed in school. Here’s why spelling matters:",
+      "paragraph": "Third grade is an important time for learning to spell. At this stage, students move from simple sounds to more complex words. Good spelling skills help them read and write with confidence. Strong spelling also improves vocabulary, reading speed, and understanding. These skills build a strong foundation for future learning."
+    },
+    {
+      "h2": "Why is Spelling Important for 3rd Graders?"
+    },
+    {
+      "paragraph": "Studies show that kids who struggle with spelling often find reading and writing harder. Poor spelling can make it tough to form sentences, understand texts, and do well in language arts. On the other hand, strong spelling skills help students succeed in school. Here’s why spelling matters:"
+    },
+    {
       "list": [
         "**📖 Helps with Reading** – Makes reading easier and improves understanding.",
         "**✍️ Improves Writing** – Reduces mistakes and boosts confidence.",
@@ -28,13 +33,15 @@
       ]
     },
     {
-      "type": "section",
-      "heading": "Phonics-Based 3rd grade Spelling Words",
-      "text": "Phonics helps students connect letters to sounds, making spelling easier. This approach also helps them read new words more easily and improves reading skills. Below is a list of phonetic patterns to support spelling practice."
+      "h2": "Phonics-Based 3rd grade Spelling Words"
     },
     {
-      "heading": "Words with Short a",
-      "headingTag": "h3",
+      "paragraph": "Phonics helps students connect letters to sounds, making spelling easier. This approach also helps them read new words more easily and improves reading skills. Below is a list of phonetic patterns to support spelling practice."
+    },
+    {
+      "h3": "Words with Short a"
+    },
+    {
       "table": {
         "rows": [
           ["basket", "cabin", "planet"],
@@ -46,8 +53,9 @@
       }
     },
     {
-      "heading": "Words with Long a",
-      "headingTag": "h3",
+      "h3": "Words with Long a"
+    },
+    {
       "table": {
         "rows": [
           ["afraid", "amaze", "daylight"],
@@ -59,8 +67,9 @@
       }
     },
     {
-      "heading": "Words with Short e",
-      "headingTag": "h3",
+      "h3": "Words with Short e"
+    },
+    {
       "table": {
         "rows": [
           ["feather", "jelly", "shelter"],
@@ -72,8 +81,9 @@
       }
     },
     {
-      "heading": "Words with Long e",
-      "headingTag": "h3",
+      "h3": "Words with Long e"
+    },
+    {
       "table": {
         "rows": [
           ["beneath", "increase", "repeat"],
@@ -85,8 +95,9 @@
       }
     },
     {
-      "heading": "Words with Short i",
-      "headingTag": "h3",
+      "h3": "Words with Short i"
+    },
+    {
       "table": {
         "rows": [
           ["chicken", "picnic", "village"],
@@ -98,8 +109,9 @@
       }
     },
     {
-      "heading": "Words with Long i",
-      "headingTag": "h3",
+      "h3": "Words with Long i"
+    },
+    {
       "table": {
         "rows": [
           ["arrive", "surprise", "twilight"],
@@ -111,8 +123,9 @@
       }
     },
     {
-      "heading": "Words with Short o",
-      "headingTag": "h3",
+      "h3": "Words with Short o"
+    },
+    {
       "table": {
         "rows": [
           ["octopus", "topic", "problem"],
@@ -124,8 +137,9 @@
       }
     },
     {
-      "heading": "Words with Long o",
-      "headingTag": "h3",
+      "h3": "Words with Long o"
+    },
+    {
       "table": {
         "rows": [
           ["coast", "explode", "oatmeal"],
@@ -137,8 +151,9 @@
       }
     },
     {
-      "heading": "Words with Short u",
-      "headingTag": "h3",
+      "h3": "Words with Short u"
+    },
+    {
       "table": {
         "rows": [
           ["butter", "jungle", "puppet"],
@@ -150,8 +165,9 @@
       }
     },
     {
-      "heading": "Words with Long u",
-      "headingTag": "h3",
+      "h3": "Words with Long u"
+    },
+    {
       "table": {
         "rows": [
           ["confuse", "rescue", "salute"],
@@ -163,9 +179,12 @@
       }
     },
     {
-      "heading": "Compound Words",
-      "headingTag": "h3",
-      "text": "Compound words are made by joining two smaller words to form a new meaning. Learning them helps students build vocabulary and improve spelling.",
+      "h3": "Compound Words"
+    },
+    {
+      "paragraph": "Compound words are made by joining two smaller words to form a new meaning. Learning them helps students build vocabulary and improve spelling."
+    },
+    {
       "table": {
         "rows": [
           ["sunflower", "notebook", "football"],
@@ -177,8 +196,12 @@
       }
     },
     {
-      "heading": "Dolch Sight Words for 3rd Grade",
-      "text": "Dolch sight words are common words that 3rd graders see often. Knowing these words helps them read faster and spell better, creating a strong foundation for learning.",
+      "h2": "Dolch Sight Words for 3rd Grade"
+    },
+    {
+      "paragraph": "Dolch sight words are common words that 3rd graders see often. Knowing these words helps them read faster and spell better, creating a strong foundation for learning."
+    },
+    {
       "table": {
         "rows": [
           ["always", "around", "because"],
@@ -192,8 +215,12 @@
       }
     },
     {
-      "heading": "Common Homophones",
-      "text": "Homophones are words that are sound alike but have different meanings and spellings. ",
+      "h2": "Common Homophones"
+    },
+    {
+      "paragraph": "Homophones are words that are sound alike but have different meanings and spellings. "
+    },
+    {
       "table": {
         "rows": [
           ["their, there, they’re"],
@@ -217,8 +244,12 @@
       }
     },
     {
-      "heading": "Common Homonyms",
-      "text": "Homonyms are words that are spelled the same but have different meanings.",
+      "h2": "Common Homonyms"
+    },
+    {
+      "paragraph": "Homonyms are words that are spelled the same but have different meanings."
+    },
+    {
       "table": {
         "rows": [
           ["bat (an animal), bat (a baseball bat)"],
@@ -230,16 +261,18 @@
       }
     },
     {
-      "heading": "Common Heteronyms",
-      "text": "Heteronyms are words that are spelled the same but have different pronunciations and meanings.",
+      "h2": "Common Heteronyms"
+    },
+    {
+      "paragraph": "Heteronyms are words that are spelled the same but have different pronunciations and meanings."
+    },
+    {
       "table": {
         "rows": [
           ["lead (to guide), lead (a type of metal)"],
           ["tear (to rip), tear (a drop of water from the eye)"],
           ["wind (moving air), wind (to twist or turn)"],
-          [
-            "record (to store information), record (a physical album or achievement)"
-          ],
+          ["record (to store information), record (a physical album or achievement)"],
           ["desert (a dry area), desert (to abandon)"],
           ["dove (a bird), dove (past tense of dive)"],
           ["present (a gift), present (to show or introduce)"]
@@ -247,7 +280,9 @@
       }
     },
     {
-      "heading": "Grade Level Expectations for 3rd Grade Spellers",
+      "h2": "Grade Level Expectations for 3rd Grade Spellers"
+    },
+    {
       "paragraphs": [
         "Spelling skills grow with each grade level. In 3rd grade, students move beyond basic spelling and start learning more complex word patterns. They practice spelling sight words, words with prefixes and suffixes, and words that follow phonics rules.",
         "As part of their lessons, 3rd graders work with weekly spelling lists, structured exercises, and fun practice activities. These help strengthen their spelling and improve reading and writing skills.",
@@ -255,7 +290,9 @@
       ]
     },
     {
-      "heading": "Key Spelling Milestones for 3rd Graders",
+      "h2": "Key Spelling Milestones for 3rd Graders"
+    },
+    {
       "list": [
         "**🔤 Understanding Spelling Rules** – Third graders learn common spelling patterns, like silent letters, consonant blends, and vowel teams (e.g., 'ai' in rain, 'ee' in tree).",
         "**📝 Using Prefixes & Suffixes** – They should recognize and use prefixes like un- (unhappy) and pre- (preheat), and suffixes like -tion (action) and -able (enjoyable).",
@@ -265,8 +302,12 @@
       ]
     },
     {
-      "heading": "Make spelling fun for 3rd graders",
-      "text": "Spelling practice doesn't have to be boring! Here are some creative ways to make spelling fun for 3rd graders:",
+      "h2": "Make spelling fun for 3rd graders"
+    },
+    {
+      "paragraph": "Spelling practice doesn't have to be boring! Here are some creative ways to make spelling fun for 3rd graders:"
+    },
+    {
       "list": [
         "📚 Spelling Bees – Competitive yet educational.",
         "🔍 Word Search & Crossword Puzzles – Helps recognize patterns and recall words.",
@@ -276,7 +317,9 @@
       ]
     },
     {
-      "heading": "❓ Frequently Asked Questions (FAQs)",
+      "h2": "❓ Frequently Asked Questions (FAQs)"
+    },
+    {
       "faq": [
         {
           "question": "How many words should a 3rd grader know how to spell?",
