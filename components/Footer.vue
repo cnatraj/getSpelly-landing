@@ -33,6 +33,15 @@
             </template>
           </v-text-field>
         </div>
+        <div class="mt-4">
+          <NuxtLink
+            v-for="item in terms"
+            :to="item.link"
+            :key="item.text"
+            class="text-subtitle-2 text-tertiary footerLink mr-2"
+            >{{ item.text }}</NuxtLink
+          >
+        </div>
       </v-col>
 
       <v-col cols="12" sm="6">
@@ -115,6 +124,11 @@
       link: '/resources/spelling-lists',
       text: 'Spelling Lists'
     }
+  ]
+
+  const terms = [
+    { link: '/terms', text: 'Terms' },
+    { link: '/privacy', text: 'Privacy' }
   ]
 </script>
 
