@@ -206,7 +206,7 @@
         <p>
           Please contact <strong>Spelly</strong> with any comments or questions.<br />
           By email: {{ email }}<br />
-          By mail: GetSpelly, PO Box 5000 PMB 92, Rancho Santa Fe, Ca 92067
+          By mail: {{ address }}
         </p>
       </div>
     </section>
@@ -215,6 +215,7 @@
 <script setup>
   const image = new URL('../assets/images/terms.webp', import.meta.url).href
   const email = 'getspelly@gmail.com'
+  const address = 'GetSpelly, PO Box 5000 PMB 92, Rancho Santa Fe, Ca 92067'
   const privacyLink = '/privacy'
 </script>
 
