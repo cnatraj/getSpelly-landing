@@ -1,0 +1,144 @@
+{
+  "slug": "commonly-misspelled-words",
+  "title": "Commonly Misspelled Words",
+  "image": "/images/content/resources/misspelled-words.webp",
+  "meta": {
+    "title": "Commonly Misspelled Words | List & Tips to Improve Spelling",
+    "description": "Explore the most commonly misspelled words and learn simple tricks to spell them correctly. Get free spelling worksheets and word lists for practice.",
+    "keywords": "commonly misspelled words, misspelled words list, hard words to spell, spelling mistakes, spelling worksheets, tricky words to spell, spelling tips",
+    "og_title": "Commonly Misspelled Words – Improve Spelling with Simple Tricks",
+    "og_description": "Find out why certain words are hard to spell and how to remember them. Download free spelling worksheets and explore grade-wise misspelled word lists.",
+    "og_image": "https://getspelly.com/images/content/resources/misspelled-words.webp"
+  },
+  "content": [
+    {
+      "h2": "Key Takeaways"
+    },
+    {
+      "list": [
+        "Many words are misspelled because they sound different from how they are written.",
+        "Silent letters, homophones, and tricky letter patterns cause most spelling errors.",
+        "Learning common spelling mistakes early helps avoid them in the future.",
+        "Practicing spelling with games and worksheets makes learning easier.",
+        "View [Top 50 misspelled words](/resources/commonly-misspelled-words/top-50)",
+        "[Spelling word lists](/resources/spelling-lists) and [free worksheets](/resources/free-spelling-worksheets) help with memorization."
+      ]
+    },
+    {
+      "h2": "Why Do People Misspell Words?"
+    },
+    {
+      "paragraph": "Spelling mistakes happen all the time—even adults mess up! But why are some words so easy to get wrong?"
+    },
+    {
+      "list": [
+        "Silent letters – Words like knight, crumb, and wrist have letters that don’t make a sound.",
+        "Words that sound the same – There, their, and they’re all sound alike but mean different things.",
+        "Letters in weird places – Why does receive follow the 'i before e' rule, but weird doesn’t?",
+        "Typing too fast – Sometimes, we just hit the wrong keys and don’t notice."
+      ]
+    },
+    {
+      "paragraph": "Spelling is tricky, but knowing which words are commonly misspelled can help!"
+    },
+    {
+      "h2": "Top 50 Commonly Misspelled Words"
+    },
+    {
+      "paragraph": "Some words get messed up so often that they’re in a list of their own. Here are some of the biggest troublemakers:"
+    },
+    {
+      "table": {
+        "rows": [
+          ["Word", "Common Misspelling"],
+          ["Definitely", "Definately"],
+          ["Separate", "Seperate"],
+          ["Embarrass", "Embarass"],
+          ["Necessary", "Neccessary"],
+          ["Receive", "Recieve"],
+          ["Occurrence", "Occurence"],
+          ["Rhythm", "Rythm"]
+        ]
+      }
+    },
+    {
+      "paragraph": "For the full list of the 50 hardest words to spell, check out [Top 50 Commonly Misspelled Words](/resources/commonly-misspelled-words/top-50)."
+    },
+    {
+      "h2": "Why Some Words Are Hard to Spell (and How to Remember Them)"
+    },
+    {
+      "list": [
+        "They break the rules – 'I before E except after C' should work… except for weird, height, and seize.",
+        "They have double letters – People often forget one letter in words like embarrass and misspell (yes, people misspell 'misspell').",
+        "They don’t sound like they look – Why does colonel sound like 'kernel'?"
+      ]
+    },
+    {
+      "h3": "Tricks to Remember Hard Words"
+    },
+    {
+      "list": [
+        "Necessary → One C and two S’s → A shirt needs one Collar and two Sleeves.",
+        "Because → Big Elephants Can Always Understand Small Elephants.",
+        "Rhythm → RHYmes That Help You Move."
+      ]
+    },
+    {
+      "paragraph": "Little tricks like these make spelling way easier to remember!"
+    },
+    {
+      "h2": "How to Improve Spelling Skills"
+    },
+    {
+      "list": [
+        "Read more – The more you see words, the easier they are to remember.",
+        "Write them down – Writing words by hand helps lock them in your brain.",
+        "Use spelling games – Fun games make learning spelling less boring!"
+      ]
+    },
+    {
+      "h2": "Practice Makes Perfect: Fun Spelling Resources"
+    },
+    {
+      "list": [
+        "📜 [Free Spelling Worksheets](/resources/free-spelling-worksheets) – Print and practice at home.",
+        "🎮 [Spelling Lists](/resources/spelling-lists) – Interactive word lists for extra practice.",
+        "🎮 [Online Spelling games](/) – like Spelly make spelling fun and enjoyable for kids."
+      ]
+    },
+    {
+      "paragraph": "Playing and practicing a little bit every day makes a huge difference!"
+    },
+    {
+      "h2": "FAQs About Commonly Misspelled Words"
+    },
+    {
+      "faq": [
+        {
+          "question": "What are the hardest words to spell in English?",
+          "answer": "Words like embarrass, rhythm, and misspell often confuse people."
+        },
+        {
+          "question": "Why is English spelling so difficult?",
+          "answer": "English has too many exceptions. Rules don’t always work, and words come from different languages, making them harder to spell."
+        },
+        {
+          "question": "How can I get better at spelling tricky words?",
+          "answer": "Practice! Use mnemonics, spelling lists, and worksheets."
+        }
+      ]
+    },
+    {
+      "paragraph": "Now you’ve got all the tools to spell like a pro! Start practicing with spelling lists, worksheets, and games, and soon those tricky words won’t seem so tricky anymore. Happy spelling! 🚀"
+    }
+  ],
+  "spellyPlug": {
+    "heading": "🎯 Master Spelling with Spelly!",
+    "text": "Try Spelly, an online spelling game that turns spelling practice into a fun, interactive experience! 🏆",
+    "cta_button": {
+      "text": "Start Learning with Spelly",
+      "link": "#"
+    }
+  }
+}
