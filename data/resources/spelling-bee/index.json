@@ -1,0 +1,181 @@
+{
+  "slug": "spelling-bee",
+  "title": "Spelling bee: Everything you need to know.",
+  "image": "/images/content/resources/spelling-bee.webp",
+  "meta": {
+    "title": "Spelling Bee | Rules, Word Lists & Study Tips",
+    "description": "Learn everything about Spelling Bees, from competition rules to grade-specific word lists. Get study tips, free spelling worksheets, and practice games.",
+    "keywords": "spelling bee, spelling bee words, spelling bee rules, spelling bee word lists, hard spelling bee words, spelling practice",
+    "og_title": "Spelling Bee – Word Lists, Rules & Study Tips",
+    "og_description": "Discover how Spelling Bees work, explore grade-level word lists, and get expert tips to improve your spelling skills. Free worksheets and games included!",
+    "og_image": "https://getspelly.com/images/content/resources/spelling-bee.webp"
+  },
+  "content": [
+    {
+      "h1": "Spelling Bee: Everything You Need to Know"
+    },
+    {
+      "h2": "Key Takeaways"
+    },
+    {
+      "list": [
+        "🔠 Spelling Bee Word lists by grade, with beginner, intermediate, and hard words.",
+        "🎯 Studying phonetics, word origins, and tricky spelling patterns helps with preparation.",
+        "🆓 Free [Spelling Bee word lists](resources/spelling-bee/word-list) and practice games are available."
+      ]
+    },
+    {
+      "h2": "What is a Spelling Bee?"
+    },
+    {
+      "paragraph": "A Spelling Bee is a competition where participants take turns spelling words out loud. If they spell a word correctly, they advance to the next round. If they make a mistake, they're eliminated. The last speller standing wins the competition."
+    },
+    {
+      "list": [
+        "✅ Improve spelling skills and vocabulary",
+        "✅ Help kids develop confidence and public speaking skills",
+        "✅ Teach focus, patience, and resilience"
+      ]
+    },
+    {
+      "paragraph": "Interested in practicing? Check out this [Spelling Bee Word List](resources/spelling-bee/word-list) for words sorted by difficulty level."
+    },
+    {
+      "h2": "History of Spelling Bees"
+    },
+    {
+      "paragraph": "Spelling Bees date back to the 1800s. The first recorded competition happened in 1925, leading to what we now know as the Scripps National Spelling Bee. Over time, Spelling Bees expanded to schools, regions, and even international competitions."
+    },
+    {
+      "paragraph": "Today, thousands of students participate in Spelling Bees across the world."
+    },
+    {
+      "h2": "How Spelling Bees Work"
+    },
+    {
+      "paragraph": "A Spelling Bee is a competition where participants take turns spelling words aloud. A judge pronounces the word and the child has to spell the word."
+    },
+    {
+      "paragraph": "The contestant can ask for the word's definition, origin, or use in a sentence before spelling it."
+    },
+    {
+      "paragraph": "If they spell it correctly, they move on to the next round. If they spell it incorrectly, they are eliminated. The last speller standing wins the competition. "
+    },
+    {
+      "paragraph": "Spelling Bee competitions are grouped by grade level and competition stage:"
+    },
+    {
+      "list": [
+        "🏫 School-Level Competitions – The first round, where winners move to regionals.",
+        "🌎 Regional Spelling Bees – Includes participants from different schools.",
+        "🏅 National Competitions – The biggest stage, featuring the best spellers."
+      ]
+    },
+
+    {
+      "h2": "4. Spelling Bee Word Lists by Grade"
+    },
+    {
+      "list": [
+        "📖 [1st Grade Spelling Bee Words](/resources/spelling-bee/1st-grade-words)",
+        "📖 [2nd Grade Spelling Bee Words](/resources/spelling-bee/2nd-grade-words)",
+        "📖 [3rd Grade Spelling Bee Words](/resources/spelling-bee/3rd-grade-words)",
+        "📖 [4th Grade Spelling Bee Words](/resources/spelling-bee/4th-grade-words)",
+        "📖 [5th Grade Spelling Bee Words](/resources/spelling-bee/spelling-bee/5th-grade-words)"
+      ]
+    },
+    {
+      "paragraph": "Having a structured word list helps kids focus on age-appropriate spelling practice."
+    },
+    {
+      "h2": "5. Hard Spelling Bee Words & Challenge Lists"
+    },
+    {
+      "table": {
+        "header": ["Difficulty", "Word Example", "Meaning"],
+        "rows": [
+          ["Hard", "Acquiesce", "To agree silently"],
+          ["Hard", "Connoisseur", "An expert in taste or art"],
+          ["Hard", "Flibbertigibbet", "A silly person"]
+        ]
+      }
+    },
+    {
+      "paragraph": "For more challenging words, visit [Hard Spelling Bee Words](spelling-bee/hard-spelling-bee-words)."
+    },
+    {
+      "h2": "6. How to Practice for a Spelling Bee"
+    },
+    {
+      "list": [
+        "📌 Break words into syllables – Makes spelling easier.",
+        "📌 Learn word origins – Many English words come from Latin, Greek, or French.",
+        "📌 Use flashcards – Helps with recall.",
+        "📌 Practice with spelling games – Makes learning fun."
+      ]
+    },
+    {
+      "paragraph": "Try out [Spelling Games for Kids](/spelling-games-for-kids) to improve spelling skills interactively."
+    },
+    {
+      "h2": "7. Commonly Misspelled Words in Spelling Bees"
+    },
+    {
+      "table": {
+        "header": ["Word", "Trick to Remember"],
+        "rows": [
+          ["Necessary", "One collar, two sleeves (1 C, 2 S’s)"],
+          ["Definitely", "No 'A' in 'Definitely'"],
+          ["Embarrass", "Double 'R' and double 'S'"]
+        ]
+      }
+    },
+    {
+      "paragraph": "Find more tricky words in [Commonly Misspelled Words](/resources/commonly-misspelled-words)."
+    },
+    {
+      "h2": "8. Frequently Asked Questions (FAQ)"
+    },
+    {
+      "faq": [
+        {
+          "question": "What’s the hardest word ever used in a Spelling Bee?",
+          "answer": "Some of the hardest words ever used include *antidisestablishmentarianism*, *scherenschnitte*, and *autochthonous*."
+        },
+        {
+          "question": "How do kids qualify for big Spelling Bees?",
+          "answer": "Students compete in school bees → regional bees → national competitions. Some major contests have online qualifiers too."
+        },
+        {
+          "question": "How can kids memorize words faster?",
+          "answer": "Break words into syllables, use mnemonics and funny tricks, and play spelling games."
+        },
+        {
+          "question": "What’s the difference between school and national Spelling Bees?",
+          "answer": "School bees have easier words, while regional and national bees use advanced words from multiple languages."
+        }
+      ]
+    },
+    {
+      "h2": "Final Thoughts"
+    },
+    {
+      "paragraph": "Spelling Bees are fun, competitive, and educational. They help kids build strong vocabulary, confidence, and concentration skills. Whether you're a beginner or a seasoned competitor, using the right resources and consistent practice is key to spelling success!"
+    },
+    {
+      "list": [
+        "📖 [Spelling Bee Word List](spelling-bee/word-list)",
+        "🔠 [Hard Spelling Bee Words](spelling-bee/hard-spelling-bee-words)",
+        "🎮 [Spelling Games for Kids](/spelling-games-for-kids)"
+      ]
+    }
+  ],
+  "spellyPlug": {
+    "heading": "🎯 Master the Spelling Bee with Spelly!",
+    "text": "Try Spelly, an online spelling game that turns spelling practice into a fun, interactive experience! 🏆",
+    "cta_button": {
+      "text": "Start Learning with Spelly",
+      "link": "#"
+    }
+  }
+}

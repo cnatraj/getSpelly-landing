@@ -55,11 +55,7 @@
     {
       "table": {
         "columns": ["Themed Spelling Lists for Better Learning"],
-        "rows": [
-          ["[Commonly Misspelled Words](/word-lists/commonly-misspelled-words/top-50)"],
-          ["[Homophones](/word-lists/commonly-misspelled-words/homophones)"],
-          ["[Silent Letters](/word-lists/commonly-misspelled-words/silent-letters)"]
-        ]
+        "rows": [["[Commonly Misspelled Words](/word-lists/commonly-misspelled-words/top-50)"]]
       }
     },
     {
@@ -112,7 +108,7 @@
         },
         {
           "question": "What are the most commonly misspelled words?",
-          "answer": "Words like separate, definitely, and friend often cause confusion. See more: [Commonly Misspelled Words](/word-lists/commonly-misspelled-words/top-50)."
+          "answer": "Words like separate, definitely, and friend often cause confusion."
         }
       ]
     }
