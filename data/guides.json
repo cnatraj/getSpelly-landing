@@ -1,26 +1,8 @@
 [
   {
-    "title": "Spelling Activities for Kids",
-    "description": "Fun and engaging spelling exercises for children of all ages.",
-    "slug": "spelling-activities-for-kids",
-    "image": "pexels-photo-8087869.jpeg"
-  },
-  {
     "title": "Grade-Specific Spelling Lists",
     "description": "Explore spelling lists tailored for different grade levels.",
     "slug": "grade-specific-spelling-lists",
     "image": "grade-specific-spelling-lists.webp"
-  },
-  {
-    "title": "Spelling Bee Practice",
-    "description": "Master spelling bees with expert tips and word lists.",
-    "slug": "spelling-bee-practice",
-    "image": "spelling-bee-practice.webp"
-  },
-  {
-    "title": "Improve Spelling Skills",
-    "description": "Learn techniques to improve your spelling ability.",
-    "slug": "improve-spelling-skills",
-    "image": "improve-spelling-skills.jpg"
   }
 ]

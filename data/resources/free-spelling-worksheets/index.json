@@ -29,19 +29,19 @@
         "columns": ["Grade Level"],
         "rows": [
           [
-            "[1st Grade Spelling Worksheets](free-spelling-worksheets/1st-grade-spelling-worksheets)"
+            "[1st Grade Spelling Worksheets](/resources/free-spelling-worksheets/1st-grade-spelling-worksheets)"
           ],
           [
-            "[2nd Grade Spelling Worksheets](free-spelling-worksheets/2nd-grade-spelling-worksheets)"
+            "[2nd Grade Spelling Worksheets](/resources/free-spelling-worksheets/2nd-grade-spelling-worksheets)"
           ],
           [
-            "[3rd Grade Spelling Worksheets](free-spelling-worksheets/3rd-grade-spelling-worksheets)"
+            "[3rd Grade Spelling Worksheets](/resources/free-spelling-worksheets/3rd-grade-spelling-worksheets)"
           ],
           [
-            "[4th Grade Spelling Worksheets](free-spelling-worksheets/4th-grade-spelling-worksheets)"
+            "[4th Grade Spelling Worksheets](/resources/free-spelling-worksheets/4th-grade-spelling-worksheets)"
           ],
           [
-            "[5th Grade Spelling Worksheets](free-spelling-worksheets/5th-grade-spelling-worksheets)"
+            "[5th Grade Spelling Worksheets](/resources/free-spelling-worksheets/5th-grade-spelling-worksheets)"
           ]
         ]
       }
@@ -55,7 +55,7 @@
     {
       "button": {
         "text": "Explore More: Spelling Bee Practice Guide",
-        "url": "/guides/spelling-bee-practice"
+        "url": "/resources/spelling-bee"
       }
     },
     {
@@ -73,12 +73,6 @@
       ]
     },
     {
-      "button": {
-        "text": "Check out more fun spelling activities here",
-        "url": "/guides/spelling-activities-for-kids"
-      }
-    },
-    {
       "h2": "📖 How to Use Worksheets to Improve Spelling Skills"
     },
     {
@@ -90,12 +84,6 @@
         "🔹 **Practice with Fun Games** – Combine worksheets with spelling games.",
         "🔹 **Test & Review** – Use worksheets for practice tests before real assessments."
       ]
-    },
-    {
-      "button": {
-        "text": "Discover more tips here",
-        "url": "/guides/improve-spelling-skills"
-      }
     },
     {
       "h2": "📝 Spelling Worksheets by Grade Level"

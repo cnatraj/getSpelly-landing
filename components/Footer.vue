@@ -101,18 +101,6 @@
     {
       link: '/guides/grade-specific-spelling-lists',
       text: 'Grade-Specific Spelling Lists'
-    },
-    {
-      link: '/guides/improve-spelling-skills',
-      text: 'Improve Spelling Skills'
-    },
-    {
-      link: '/guides/spelling-activities-for-kids',
-      text: 'Spelling Activities for Kids'
-    },
-    {
-      link: '/guides/spelling-bee-practice',
-      text: 'Spelling Bee Practice'
     }
   ]
   const resources = [
@@ -123,6 +111,14 @@
     {
       link: '/resources/spelling-lists',
       text: 'Spelling Lists'
+    },
+    {
+      link: '/resources/spelling-bee',
+      text: 'Spelling Bee'
+    },
+    {
+      link: '/resources/commonly-misspelled-words',
+      text: 'Commonly Misspelled Words'
     }
   ]
 

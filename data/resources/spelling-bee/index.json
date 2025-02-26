@@ -20,8 +20,7 @@
     {
       "list": [
         "🔠 Spelling Bee Word lists by grade, with beginner, intermediate, and hard words.",
-        "🎯 Studying phonetics, word origins, and tricky spelling patterns helps with preparation.",
-        "🆓 Free [Spelling Bee word lists](resources/spelling-bee/word-list) and practice games are available."
+        "🎯 Studying phonetics, word origins, and tricky spelling patterns helps with preparation."
       ]
     },
     {
@@ -36,9 +35,6 @@
         "✅ Help kids develop confidence and public speaking skills",
         "✅ Teach focus, patience, and resilience"
       ]
-    },
-    {
-      "paragraph": "Interested in practicing? Check out this [Spelling Bee Word List](resources/spelling-bee/word-list) for words sorted by difficulty level."
     },
     {
       "h2": "History of Spelling Bees"
@@ -164,7 +160,6 @@
     },
     {
       "list": [
-        "📖 [Spelling Bee Word List](spelling-bee/word-list)",
         "🔠 [Hard Spelling Bee Words](spelling-bee/hard-words)",
         "🎮 [Spelling Games for Kids](/spelling-games-for-kids)"
       ]

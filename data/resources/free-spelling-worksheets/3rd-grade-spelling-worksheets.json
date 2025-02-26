@@ -27,9 +27,6 @@
       ]
     },
     {
-      "paragraph": "📌 Learn more about phonics and spelling rules here: [Phonics and Spelling Rules](/techniques/phonics-and-spelling/rules)"
-    },
-    {
       "h2": "Free Printable 3rd Grade Spelling Worksheets"
     },
     {
@@ -124,9 +121,6 @@
       }
     },
     {
-      "paragraph": "🏆 Practice spelling bee words here: [Beginner Spelling Bee Words](resources/spelling-bee-practice/beginner)"
-    },
-    {
       "h2": "Commonly Misspelled Words in 3rd Grade"
     },
     {
@@ -141,7 +135,7 @@
       "callout": {
         "type": "tip",
         "title": "Commonly misspelled words",
-        "text": "See the full list of commonly misspelled words: [Commonly Misspelled Words](word-lists/commonly-misspelled-words/top-50)"
+        "text": "See the full list of commonly misspelled words: [Commonly Misspelled Words](/resources/commonly-misspelled-words/top-50)"
       }
     },
     {

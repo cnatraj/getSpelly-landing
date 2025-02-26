@@ -34,59 +34,25 @@
       "callout": {
         "type": "tip",
         "title": "Commonly misspelled words",
-        "text": "Check out the most commonly misspelled words here: [Commonly Misspelled Words](/word-lists/commonly-misspelled-words/top-50)"
+        "text": "Check out the most commonly misspelled words here: [Commonly Misspelled Words](/resources/commonly-misspelled-words/top-50)"
       }
-    },
-    {
-      "paragraph": "📌 Check out the most commonly misspelled words here: [Commonly Misspelled Words](/word-lists/commonly-misspelled-words/top-50)"
     },
     {
       "table": {
         "columns": ["Grade-Based Spelling Lists (1st to 5th Grade)"],
         "rows": [
-          ["[1st Grade Spelling Words](spelling-lists/1st-grade-spelling-words)"],
-          ["[2nd Grade Spelling Words](spelling-lists/2nd-grade-spelling-words)"],
-          ["[3rd Grade Spelling Words](spelling-lists/3rd-grade-spelling-words)"],
-          ["[4th Grade Spelling Words](spelling-lists/4th-grade-spelling-words)"],
-          ["[5th Grade Spelling Words](spelling-lists/5th-grade-spelling-words)"]
+          ["[1st Grade Spelling Words](/resources/spelling-lists/1st-grade-spelling-words)"],
+          ["[2nd Grade Spelling Words](/resources/spelling-lists/2nd-grade-spelling-words)"],
+          ["[3rd Grade Spelling Words](/resources/spelling-lists/3rd-grade-spelling-words)"],
+          ["[4th Grade Spelling Words](/resources/spelling-lists/4th-grade-spelling-words)"],
+          ["[5th Grade Spelling Words](/resources/spelling-lists/5th-grade-spelling-words)"]
         ]
       }
     },
     {
       "table": {
         "columns": ["Themed Spelling Lists for Better Learning"],
-        "rows": [["[Commonly Misspelled Words](/word-lists/commonly-misspelled-words/top-50)"]]
-      }
-    },
-    {
-      "table": {
-        "columns": ["Spelling Lists for Spelling Bees"],
-        "rows": [
-          ["[Beginner Spelling Bee Practice](/resources/spelling-bee-practice/beginner)"],
-          ["[Intermediate Spelling Bee Words](/resources/spelling-bee-practice/intermediate)"],
-          ["[Advanced Spelling Bee Words](/resources/spelling-bee-practice/advanced)"]
-        ]
-      }
-    },
-    {
-      "table": {
-        "columns": ["Printable Spelling Lists & Interactive Spelling Games"],
-        "rows": [
-          [
-            "[Printable Spelling Worksheets](/resources/free-spelling-worksheets/1st-grade-spelling-worksheets)"
-          ],
-          ["[Interactive Spelling Games](/games/spelling-games-for-kids/1st-grade)"],
-          ["[Advanced Spelling Bee Words](/resources/spelling-bee-practice/advanced)"]
-        ]
-      }
-    },
-    {
-      "table": {
-        "columns": ["Best Techniques to Learn and Retain Spelling Words"],
-        "rows": [
-          ["[Multisensory Spelling Techniques](/techniques/multisensory-spelling-techniques)"],
-          ["[Phonics and Spelling Rules](/techniques/phonics-and-spelling/rules)"]
-        ]
+        "rows": [["[Commonly Misspelled Words](/resources/commonly-misspelled-words/top-50)"]]
       }
     },
     {
