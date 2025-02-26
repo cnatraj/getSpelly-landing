@@ -1,0 +1,155 @@
+{
+  "slug": "hard-words",
+  "title": "Hard Spelling Bee Words",
+  "image": "/images/content/resources/spelling-bee-2nd-grade.webp",
+  "meta": {
+    "title": "Hard Spelling Bee Words | Advanced Word Lists & Study Tips",
+    "description": "Discover hard spelling bee words with expert word lists, pronunciation guides, and fun study techniques. Get ready for competition with engaging spelling tips!",
+    "keywords": "hard spelling bee words, difficult spelling bee words, championship spelling words, advanced spelling words, tricky spelling words, spelling competition words, spelling practice",
+    "og_title": "Hard Spelling Bee Words – Expert Word Lists & Study Tips",
+    "og_description": "Prepare for tough spelling bees with expert word lists, tricky words, and effective study strategies. Free printable worksheets and interactive spelling games included!",
+    "og_image": "https://getspelly.com/images/content/resources/spelling-bee-2nd-grade.webp"
+  },
+  "content": [
+    { "h2": "Key Takeaways" },
+    {
+      "list": [
+        "A carefully curated list of hard spelling bee words to help students excel.",
+        "Includes challenging vocabulary commonly used in regional and national spelling bees.",
+        "Printable spelling worksheets available for structured learning.",
+        "Strategies to help parents and teachers support young spellers."
+      ]
+    },
+    { "h2": "Hard Spelling Bee Word List" },
+    {
+      "paragraph": "Preparing for a spelling bee requires mastering challenging and complex words. Below is a carefully selected list of hard spelling bee words, including tricky phonetics, silent letters, and borrowed words from other languages."
+    },
+    {
+      "table": {
+        "columns": ["Difficult words", "Tricky words", "Complex Words"],
+        "rows": [
+          ["subtle", "knapsack", "labyrinthine"],
+          ["havoc", "mortgage", "perspicacious"],
+          ["angst", "autumn", "quintessential"],
+          ["gnome", "debris", "juxtaposition"],
+          ["fjord", "wrinkle", "incommunicado"],
+          ["chasm", "isle", "idiosyncratic"],
+          ["glyph", "mnemonic", "acquiescence"],
+          ["psalm", "gnaw", "serendipity"],
+          ["zeal", "salmon", "phantasmagoria"],
+          ["quartz", "indict", "exacerbate"]
+        ]
+      }
+    },
+    { "h3": "Words Borrowed from Other Languages" },
+    {
+      "table": {
+        "columns": ["Word", "Origin"],
+        "rows": [
+          ["savoir-faire", "French"],
+          ["bazaar", "Persian"],
+          ["fjord", "Norwegian"],
+          ["guerrilla", "Spanish"],
+          ["tsunami", "Japanese"],
+          ["schadenfreude", "German"],
+          ["macabre", "French"],
+          ["entrepreneur", "French"],
+          ["cognoscente", "Italian"],
+          ["kindergarten", "German"]
+        ]
+      }
+    },
+    {
+      "paragraph": "For students looking for words at a specific grade level, check out [spelling lists by grade](/resources/spelling-lists/) to gradually increase difficulty."
+    },
+    { "h2": "How to Help Students Practice Hard Spelling Bee Words" },
+    {
+      "list": [
+        "Break words into syllables – Teach kids to segment longer words into parts for easier recall.",
+        "Use flashcards – Write words on one side and definitions on the other to reinforce memory.",
+        "Practice spelling tests – Regular tests can simulate a real spelling bee experience.",
+        "Create mnemonic devices – Help students make fun associations with difficult words (e.g., 'A Rat In The House Might Eat The Ice Cream' for 'arithmetic').",
+        "Write words in sentences – Understanding context helps with retention and comprehension."
+      ]
+    },
+    { "h2": "Fun Ways to Study Hard Spelling Bee Words" },
+    {
+      "list": [
+        "Spelling Races – Challenge kids to write a word correctly before a timer runs out.",
+        "Letter Scramble – Mix up the letters of a word and ask students to rearrange them.",
+        "Word Puzzles – Crossword puzzles with hard spelling bee words reinforce learning in a fun way.",
+        "Interactive Spelling Games – provide an engaging way to practice challenging words."
+      ]
+    },
+    { "h2": "Commonly Misspelled Words in Spelling Bees" },
+    {
+      "list": [
+        "pronunciation",
+        "cemetery",
+        "rhythm",
+        "occasion",
+        "embarrassment",
+        "mischievous",
+        "conscience",
+        "maintenance",
+        "separate",
+        "perseverance"
+      ]
+    },
+    {
+      "paragraph": "More commonly misspelled words can be found in our [top 50 commonly misspelled words](/resources/commonly-misspelled-words/top-50/) list."
+    },
+    { "h2": "More Spelling Bee Word Lists by Grade" },
+    {
+      "list": [
+        "[1st Grade Spelling Bee Words](resources/spelling-bee/1st-grade-words/)",
+        "[2nd Grade Spelling Bee Words](resources/spelling-bee/2nd-grade-words/)",
+        "[3rd Grade Spelling Bee Words](resources/spelling-bee/3rd-grade-words/)",
+        "[4th Grade Spelling Bee Words](resources/spelling-bee/4th-grade-words/)",
+        "[5th Grade Spelling Bee Words](resources/spelling-bee/5th-grade-words/)"
+      ]
+    },
+    {
+      "paragraph": "For more advanced spelling challenges, check out [hard spelling bee words](/resources/spelling-bee/hard-words/) used in national competitions."
+    },
+    { "h2": "Printable Spelling Bee Worksheets for Extra Practice" },
+    {
+      "list": [
+        "[5th Grade Spelling Worksheets](/resources/free-spelling-worksheets/5th-grade-spelling-worksheets/)",
+        "[4th Grade Spelling Worksheets](/resources/free-spelling-worksheets/4h-grade-spelling-worksheets/)",
+        "[3rd Grade Spelling Worksheets](/resources/free-spelling-worksheets/3rd-grade-spelling-worksheets/)",
+        "[2nd Grade Spelling Worksheets](/resources/free-spelling-worksheets/2nd-grade-spelling-worksheets/)",
+        "[1st Grade Spelling Worksheets](/resources/free-spelling-worksheets/1st-grade-spelling-worksheets/)"
+      ]
+    },
+    { "h2": "Frequently Asked Questions" },
+    {
+      "faq": [
+        {
+          "question": "What are the hardest words ever used in a spelling bee?",
+          "answer": "Some of the toughest words include 'scherenschnitte,' 'stichomythia,' and 'appoggiatura,' all of which have appeared in national competitions."
+        },
+        {
+          "question": "How can my child get better at spelling difficult words?",
+          "answer": "Consistent practice using spelling games, flashcards, and adaptive quizzes can help children improve retention."
+        },
+        {
+          "question": "Are there printable spelling lists available?",
+          "answer": "Yes, printable worksheets for different grade levels are available for structured spelling practice."
+        },
+        {
+          "question": "What is the best way to prepare for a spelling bee?",
+          "answer": "A combination of spelling tests, word breakdowns, and interactive learning tools can ensure well-rounded preparation."
+        }
+      ]
+    }
+  ],
+  "spellyPlug": {
+    "heading": "🎯 Become a Spelling Bee champion!",
+    "text": "Try Spelly, an online spelling game that turns spelling practice into a fun, interactive experience! 🏆",
+    "cta_button": {
+      "text": "Start Learning with Spelly",
+      "link": "#"
+    }
+  }
+}
