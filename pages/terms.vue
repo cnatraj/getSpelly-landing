@@ -7,7 +7,7 @@
       class="d-flex"
       gradient="to top right, rgba(256,256,256,.33), rgba(25,32,72,.7)"
     >
-      <div class="text-h1 text-center pt-16 text-white">Terms of Use</div>
+      <h1 class="text-h1 text-center pt-16 text-white">Terms of Use</h1>
       <div class="text-h6 text-center text-white">Last Update: Feb 24th, 2025</div>
     </v-img>
 

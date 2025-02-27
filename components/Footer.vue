@@ -42,6 +42,17 @@
             >{{ item.text }}</NuxtLink
           >
         </div>
+        <div class="mt-4">
+          <a href="https://indievoice.app" target="_blank">
+            <img
+              src="https://1f08bbd99d1a620c734d44a7ea6c9651.cdn.bubble.io/f1732389027701x897901387835433300/find_us.png"
+              alt="IndieVoice Embed Badge"
+              width="250"
+              height="60"
+              style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges"
+            />
+          </a>
+        </div>
       </v-col>
 
       <v-col cols="12" sm="6">
